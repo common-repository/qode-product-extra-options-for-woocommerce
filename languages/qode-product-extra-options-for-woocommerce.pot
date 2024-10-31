@@ -1,0 +1,2456 @@
+# Copyright (C) 2024 Qode Interactive
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: QODE Product Extra Options for WooCommerce 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/qode-product-extra-options-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-14T14:05:32+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: qode-product-extra-options-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+#: D:\projects\qi-woo\app\public\wp-content\plugins\qode-product-extra-options-for-woocommerce\class-qode-product-extra-options-for-woocommerce.php
+msgid "QODE Product Extra Options for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: D:\projects\qi-woo\app\public\wp-content\plugins\qode-product-extra-options-for-woocommerce\class-qode-product-extra-options-for-woocommerce.php
+msgid "https://qodeinteractive.com/qode-product-extra-options-for-woocommerce/"
+msgstr ""
+
+#. Description of the plugin
+#: D:\projects\qi-woo\app\public\wp-content\plugins\qode-product-extra-options-for-woocommerce\class-qode-product-extra-options-for-woocommerce.php
+msgid "QODE Product Extra Options for WooCommerce elevates the eCommerce experience by providing your shoppers with selectable advanced product options."
+msgstr ""
+
+#. Author of the plugin
+#: D:\projects\qi-woo\app\public\wp-content\plugins\qode-product-extra-options-for-woocommerce\class-qode-product-extra-options-for-woocommerce.php
+msgid "Qode Interactive"
+msgstr ""
+
+#. Author URI of the plugin
+#: D:\projects\qi-woo\app\public\wp-content\plugins\qode-product-extra-options-for-woocommerce\class-qode-product-extra-options-for-woocommerce.php
+msgid "https://qodeinteractive.com/"
+msgstr ""
+
+#: class-qode-product-extra-options-for-woocommerce.php:721
+msgctxt "String added to the add-on title when it is duplicated"
+msgid "Copy"
+msgstr ""
+
+#. translators: Label printed in the add-on type Date, when activating the timepicker.
+#: class-qode-product-extra-options-for-woocommerce.php:990
+msgid "Set time"
+msgstr ""
+
+#. translators: Label printed in the add-on type Date, when activating the timepicker.
+#: class-qode-product-extra-options-for-woocommerce.php:992
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-editor.php:512
+msgid "Save"
+msgstr ""
+
+#. translators: Label printed if minimum value is 1.
+#. translators: Message giving the error after checking minimum and maximum quantity when adding to cart.
+#: class-qode-product-extra-options-for-woocommerce.php:994
+#: class-qode-product-extra-options-for-woocommerce.php:1022
+msgid "Please, populate an option"
+msgstr ""
+
+#. translators: Label printed if minimum value is more than 1. %d is the number of options.
+#: class-qode-product-extra-options-for-woocommerce.php:996
+msgid "Please, populate at least %d options"
+msgstr ""
+
+#. translators: Label printed for exact selection value. %d is the number of options.
+#: class-qode-product-extra-options-for-woocommerce.php:998
+msgid "Please, populate %d options"
+msgstr ""
+
+#. translators: Error when the user select more than allowed options ( min/max feature ).
+#: class-qode-product-extra-options-for-woocommerce.php:1000
+msgid "More options than allowed have been populate"
+msgstr ""
+
+#: class-qode-product-extra-options-for-woocommerce.php:1001
+msgctxt "Percentage done when uploading a file on an add-on type File."
+msgid "done"
+msgstr ""
+
+#. translators: Message error when total of add-ons type numbers does not exceeds the minimum set in the configuration.
+#: class-qode-product-extra-options-for-woocommerce.php:1018
+msgid "The sum of the numbers is below the minimum. The minimum value is:"
+msgstr ""
+
+#. translators: Message error when total of add-ons type numbers exceeds the maximum set in the configuration.
+#: class-qode-product-extra-options-for-woocommerce.php:1020
+msgid "The sum of the numbers exceeded the maximum. The maximum value is:"
+msgstr ""
+
+#. translators: Text to show for maximum files allowed on add-on type Upload.
+#: class-qode-product-extra-options-for-woocommerce.php:1026
+msgid "Maximum uploaded files allowed. The maximum number of files allowed is: "
+msgstr ""
+
+#. translators: Message giving the error when the file upload is not a supported extension.
+#: class-qode-product-extra-options-for-woocommerce.php:1028
+msgid "Error - not supported extension!"
+msgstr ""
+
+#. translators: Message giving the error when the file has a high size, 1 file size, 2 allowed size, .
+#: class-qode-product-extra-options-for-woocommerce.php:1030
+msgid "Error - file size for %1$s - max %2$d MB allowed!"
+msgstr ""
+
+#: class-qode-product-extra-options-for-woocommerce.php:1520
+msgid "WooCommerce plugin is required for QODE Product Extra Options for WooCommerce plugin to work properly. Please install/activate it first."
+msgstr ""
+
+#: helpers/helper.php:178
+msgid "OPTION SETTINGS"
+msgstr ""
+
+#: helpers/helper.php:183
+msgid "Option Configuration"
+msgstr ""
+
+#: helpers/helper.php:188
+msgid "Conditional Logic"
+msgstr ""
+
+#: helpers/helper.php:341
+msgctxt "Add-on editor panel > Add a new + add-on name (fem)"
+msgid "Add a new"
+msgstr ""
+
+#: helpers/helper.php:344
+msgid "Single - Users can fill ONE of the available fields"
+msgstr ""
+
+#: helpers/helper.php:345
+msgid "Multiple - Users can fill MULTIPLE fields"
+msgstr ""
+
+#: helpers/helper.php:346
+msgid "Choose if users can fill one or multiple fields."
+msgstr ""
+
+#: helpers/helper.php:347
+msgid "Set the first fields selected as free"
+msgstr ""
+
+#. Translators: %1$s number of free items, and pay from %2$s item.
+#: helpers/helper.php:350
+msgid "Enable to set a specific number of fields as free. %1$s For example, the first three \"pizza toppings\" are free, included in the product price. %2$s Users will pay from the fourth topping on."
+msgstr ""
+
+#: helpers/helper.php:354
+msgid "Users can fill for free"
+msgstr ""
+
+#: helpers/helper.php:355
+msgid "Set how many fields users can fill for free."
+msgstr ""
+
+#: helpers/helper.php:356
+msgid "Force user to fill fields of this block"
+msgstr ""
+
+#: helpers/helper.php:357
+msgid "Enable to force users to fill fields to proceed with the purchase."
+msgstr ""
+
+#: helpers/helper.php:358
+msgid "To proceed with the purchase, users have to fill"
+msgstr ""
+
+#: helpers/helper.php:359
+msgid "Set how many fields need to be filled in order to add a product to cart."
+msgstr ""
+
+#: helpers/helper.php:360
+msgid "Users can fill a max of"
+msgstr ""
+
+#. Translators: %s number of fields user can fill.
+#: helpers/helper.php:363
+msgid "Optional: set the max number of fields fillable by users in this block. %s Leave empty if users can fill all fields without any limits."
+msgstr ""
+
+#: helpers/helper.php:366
+msgid "fields"
+msgstr ""
+
+#: helpers/helper.php:369
+msgid "Single - Users can select ONE of the available options"
+msgstr ""
+
+#: helpers/helper.php:370
+msgid "Multiple - Users can select MULTIPLE options"
+msgstr ""
+
+#: helpers/helper.php:371
+msgid "Choose if users can select one or multiple options."
+msgstr ""
+
+#: helpers/helper.php:372
+msgid "Set the First Options Selected as Free"
+msgstr ""
+
+#: helpers/helper.php:373
+msgid "Enable to set a specific number of Options as free. For example, the first three \"pizza toppings\" are free, included in the product price. Users will pay from the fourth topping on"
+msgstr ""
+
+#: helpers/helper.php:374
+msgid "Users Can Select for Free"
+msgstr ""
+
+#: helpers/helper.php:375
+msgid "Set how many Options users can select for free"
+msgstr ""
+
+#: helpers/helper.php:376
+msgid "Force User to Select Options of This Block"
+msgstr ""
+
+#: helpers/helper.php:377
+msgid "Enable to force users to select Options to proceed with the purchase"
+msgstr ""
+
+#: helpers/helper.php:378
+msgid "To Proceed With the Purchase, Users Have to Select"
+msgstr ""
+
+#: helpers/helper.php:379
+msgid "Set how many Options need to be selected in order to add a product to cart"
+msgstr ""
+
+#: helpers/helper.php:380
+msgid "Users can select a max of"
+msgstr ""
+
+#: helpers/helper.php:381
+msgid "Optional: set the max number of options selectable by users in this block. Leave empty if users can select all options without any limits."
+msgstr ""
+
+#: helpers/helper.php:382
+msgid "Set a min/max value among all options"
+msgstr ""
+
+#: helpers/helper.php:383
+msgid "Enable to force users to enter values that are within a specific range when all options are added together."
+msgstr ""
+
+#: helpers/helper.php:384
+msgid "Sum of options between"
+msgstr ""
+
+#: helpers/helper.php:385
+msgid "options"
+msgstr ""
+
+#: helpers/helper.php:386
+msgctxt "Add-on editor panel > Add a new + add-on name (masc)"
+msgid "Add a new"
+msgstr ""
+
+#: helpers/helper.php:1148
+#: helpers/helper.php:1380
+#: helpers/helper.php:1611
+#: helpers/helper.php:1656
+#: helpers/helper.php:1732
+#: inc/admin/inc/common/core/class-qode-product-extra-options-for-woocommerce-framework-options.php:149
+#: inc/admin/inc/fonts/helper.php:115
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:141
+msgid "Default"
+msgstr ""
+
+#: helpers/helper.php:1393
+msgid "Same Window"
+msgstr ""
+
+#: helpers/helper.php:1394
+msgid "New Window"
+msgstr ""
+
+#: helpers/helper.php:1397
+msgid "Solid"
+msgstr ""
+
+#: helpers/helper.php:1398
+msgid "Dashed"
+msgstr ""
+
+#: helpers/helper.php:1399
+msgid "Dotted"
+msgstr ""
+
+#: helpers/helper.php:1402
+msgid "Thin (100)"
+msgstr ""
+
+#: helpers/helper.php:1403
+msgid "Extra Light (200)"
+msgstr ""
+
+#: helpers/helper.php:1404
+msgid "Light (300)"
+msgstr ""
+
+#: helpers/helper.php:1405
+msgid "Normal (400)"
+msgstr ""
+
+#: helpers/helper.php:1406
+msgid "Medium (500)"
+msgstr ""
+
+#: helpers/helper.php:1407
+msgid "Semi Bold (600)"
+msgstr ""
+
+#: helpers/helper.php:1408
+msgid "Bold (700)"
+msgstr ""
+
+#: helpers/helper.php:1409
+msgid "Extra Bold (800)"
+msgstr ""
+
+#: helpers/helper.php:1410
+msgid "Black (900)"
+msgstr ""
+
+#: helpers/helper.php:1413
+msgid "Normal"
+msgstr ""
+
+#: helpers/helper.php:1414
+msgid "Italic"
+msgstr ""
+
+#: helpers/helper.php:1415
+msgid "Oblique"
+msgstr ""
+
+#: helpers/helper.php:1416
+#: helpers/helper.php:1424
+#: helpers/helper.php:1432
+msgid "Initial"
+msgstr ""
+
+#: helpers/helper.php:1417
+#: helpers/helper.php:1425
+#: helpers/helper.php:1433
+msgid "Inherit"
+msgstr ""
+
+#: helpers/helper.php:1420
+#: helpers/helper.php:1428
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:161
+msgid "None"
+msgstr ""
+
+#: helpers/helper.php:1421
+msgid "Capitalize"
+msgstr ""
+
+#: helpers/helper.php:1422
+msgid "Uppercase"
+msgstr ""
+
+#: helpers/helper.php:1423
+msgid "Lowercase"
+msgstr ""
+
+#: helpers/helper.php:1429
+msgid "Underline"
+msgstr ""
+
+#: helpers/helper.php:1430
+msgid "Overline"
+msgstr ""
+
+#: helpers/helper.php:1431
+msgid "Line-Through"
+msgstr ""
+
+#: helpers/helper.php:1436
+#: helpers/helper.php:1441
+#: inc/admin/inc/common/fields-wp/class-qode-product-extra-options-for-woocommerce-framework-field-wp-yesno.php:13
+#: inc/admin/inc/common/fields/class-qode-product-extra-options-for-woocommerce-framework-field-yesno.php:13
+#: inc/admin/inc/shortcodes/translators/elementor/class-qode-product-extra-options-for-woocommerce-framework-elementor-translator.php:622
+#: inc/product-add-ons/templates/fields/onoff.php:28
+#: inc/product-add-ons/templates/fields/yesno-radio.php:28
+msgid "Yes"
+msgstr ""
+
+#: helpers/helper.php:1437
+#: helpers/helper.php:1440
+#: inc/admin/inc/common/fields-wp/class-qode-product-extra-options-for-woocommerce-framework-field-wp-yesno.php:17
+#: inc/admin/inc/common/fields/class-qode-product-extra-options-for-woocommerce-framework-field-yesno.php:15
+#: inc/admin/inc/shortcodes/translators/elementor/class-qode-product-extra-options-for-woocommerce-framework-elementor-translator.php:621
+#: inc/product-add-ons/templates/fields/onoff.php:32
+#: inc/product-add-ons/templates/fields/yesno-radio.php:32
+msgid "No"
+msgstr ""
+
+#: helpers/helper.php:1444
+msgid "January"
+msgstr ""
+
+#: helpers/helper.php:1445
+msgid "February"
+msgstr ""
+
+#: helpers/helper.php:1446
+msgid "March"
+msgstr ""
+
+#: helpers/helper.php:1447
+msgid "April"
+msgstr ""
+
+#: helpers/helper.php:1448
+msgid "May"
+msgstr ""
+
+#: helpers/helper.php:1449
+msgid "June"
+msgstr ""
+
+#: helpers/helper.php:1450
+msgid "July"
+msgstr ""
+
+#: helpers/helper.php:1451
+msgid "August"
+msgstr ""
+
+#: helpers/helper.php:1452
+msgid "September"
+msgstr ""
+
+#: helpers/helper.php:1453
+msgid "October"
+msgstr ""
+
+#: helpers/helper.php:1454
+msgid "November"
+msgstr ""
+
+#: helpers/helper.php:1455
+msgid "December"
+msgstr ""
+
+#: helpers/helper.php:1888
+#: helpers/helper.php:1890
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-cart.php:622
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-cart.php:757
+msgctxt "Show it in the cart page if the add-on has not a label set"
+msgid "Option"
+msgstr ""
+
+#: inc/admin/class-qode-product-extra-options-for-woocommerce-framework.php:57
+msgid "Product Extra Options"
+msgstr ""
+
+#: inc/admin/class-qode-product-extra-options-for-woocommerce-framework.php:77
+msgid "Global"
+msgstr ""
+
+#: inc/admin/class-qode-product-extra-options-for-woocommerce-framework.php:78
+msgid "Global Plugin Options"
+msgstr ""
+
+#: inc/admin/inc/admin-notice/class-qode-product-extra-options-for-woocommerce-admin-notice.php:96
+msgid "Thank you for the feedback!"
+msgstr ""
+
+#: inc/admin/inc/admin-notice/class-qode-product-extra-options-for-woocommerce-admin-notice.php:98
+msgid "Something went wrong with sending feedback."
+msgstr ""
+
+#: inc/admin/inc/admin-notice/templates/admin-deactivation-form.php:22
+msgid "Quick Feedback"
+msgstr ""
+
+#. translators: %s - Plugin name.
+#: inc/admin/inc/admin-notice/templates/admin-deactivation-form.php:32
+msgid "If you have a moment, please share why you are deactivating %s:"
+msgstr ""
+
+#: inc/admin/inc/admin-notice/templates/admin-deactivation-form.php:44
+msgid "I no longer need the plugin"
+msgstr ""
+
+#: inc/admin/inc/admin-notice/templates/admin-deactivation-form.php:53
+msgid "I found a better plugin"
+msgstr ""
+
+#: inc/admin/inc/admin-notice/templates/admin-deactivation-form.php:56
+msgid "Please share which plugin"
+msgstr ""
+
+#: inc/admin/inc/admin-notice/templates/admin-deactivation-form.php:63
+msgid "I couldn't get plugin to work"
+msgstr ""
+
+#: inc/admin/inc/admin-notice/templates/admin-deactivation-form.php:72
+msgid "This is a temporary deactivation"
+msgstr ""
+
+#. translators: %s - Plugin name.
+#: inc/admin/inc/admin-notice/templates/admin-deactivation-form.php:85
+msgid "I have %s Premium"
+msgstr ""
+
+#. translators: 1. Plugin name; 2. Plugin name; 3. Plugin name.
+#: inc/admin/inc/admin-notice/templates/admin-deactivation-form.php:96
+msgid "Wait! Don't deactivate %1$s. You have to activate both %2$s and %3$s Premium in order for the plugin to work."
+msgstr ""
+
+#: inc/admin/inc/admin-notice/templates/admin-deactivation-form.php:109
+msgid "Other"
+msgstr ""
+
+#: inc/admin/inc/admin-notice/templates/admin-deactivation-form.php:112
+msgid "Please share the reason"
+msgstr ""
+
+#: inc/admin/inc/admin-notice/templates/admin-deactivation-form.php:116
+msgid "Submit & Deactivate"
+msgstr ""
+
+#: inc/admin/inc/admin-notice/templates/admin-deactivation-form.php:117
+msgid "Skip & Deactivate"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/class-qode-product-extra-options-for-woocommerce-admin-general-page.php:17
+msgid "Qode Plugins For WooCommerce"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/class-qode-product-extra-options-for-woocommerce-admin-general-page.php:62
+msgid "Help Center"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/class-qode-product-extra-options-for-woocommerce-admin-general-page.php:63
+msgid "Video Tutorials"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/class-qode-product-extra-options-for-woocommerce-admin-general-page.php:64
+msgid "Qode WooCommerce Plugins"
+msgstr ""
+
+#. translators: 1. Premium plugin url.
+#: inc/admin/inc/admin-pages/class-qode-product-extra-options-for-woocommerce-admin-general-page.php:74
+#: inc/admin/inc/admin-pages/options-custom-pages/helper.php:10
+#: inc/admin/inc/admin-pages/options-custom-pages/qode-products/helper.php:96
+msgid "Upgrade"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/help/dashboard.php:17
+msgid "Help"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/help/templates/parts/boxes.php:12
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/help/templates/parts/boxes.php:13
+msgid "Detailed QODE Product Extra Options for WooCommerce user manual and documentation."
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/help/templates/parts/boxes.php:14
+msgid "Read More"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/help/templates/parts/boxes.php:20
+msgid "Support"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/help/templates/parts/boxes.php:21
+msgid "Our dedicated team of support pros is there for your plugin-related questions."
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/help/templates/parts/boxes.php:22
+msgid "Submit a Ticket"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/help/templates/parts/boxes.php:34
+msgid "Rate QODE Product Extra Options"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/help/templates/parts/boxes.php:35
+msgid "Let us know about your experience with the QODE Product Extra Options for WooCommerce."
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/help/templates/parts/boxes.php:36
+msgid "Rate Us"
+msgstr ""
+
+#. translators: %s - current date.
+#: inc/admin/inc/admin-pages/options-custom-pages/help/templates/parts/footer.php:12
+#: inc/admin/inc/admin-pages/options-custom-pages/qode-products/templates/parts/footer.php:12
+#: inc/admin/inc/admin-pages/templates/footer.php:12
+msgid "Copyright &copy; %d Qode Interactive, All rights reserved"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/help/templates/parts/header.php:8
+#: inc/admin/inc/admin-pages/options-custom-pages/qode-products/templates/parts/header.php:8
+msgid "Qode Logo"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/help/templates/parts/header.php:9
+msgid "QODE Product Extra Options for WooCommerce Help"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/help/templates/parts/header.php:10
+msgid "Check out the Knowledge Base articles, user guide or contact our support professionals"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/help/templates/parts/knowledge.php:9
+#: inc/admin/inc/admin-pages/options-custom-pages/help/templates/parts/knowledge.php:21
+msgid "Knowledge Base"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/help/templates/parts/knowledge.php:10
+msgid "Find the answers to all types of WordPress-related questions by browsing our Knowledge Base articles."
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/help/templates/parts/knowledge.php:12
+msgid "View More"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/help/templates/parts/subscribe.php:8
+msgid "Qode Newsletter"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/help/templates/parts/subscribe.php:9
+msgid "Subscribe  to get all our news & updates more words "
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/help/templates/parts/subscribe.php:13
+msgid "Your Email..."
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/qode-products/dashboard.php:17
+msgid "Qode Products"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/qode-products/helper.php:89
+msgid "Activate"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/qode-products/helper.php:112
+msgid "Activated"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/qode-products/helper.php:128
+msgid "Get Free Version"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/qode-products/templates/parts/all-products.php:9
+msgid "Build beautiful modern websites with ease"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/qode-products/templates/parts/all-products.php:10
+msgid "View All Products"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/qode-products/templates/parts/all-products.php:13
+msgid "All Products"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/qode-products/templates/parts/header.php:9
+msgid "All Qode Products"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/qode-products/templates/parts/header.php:10
+msgid "Plugins and website templates with powerful options & features for creating all types of websites"
+msgstr ""
+
+#: inc/admin/inc/admin-pages/options-custom-pages/qode-products/templates/parts/plugins.php:18
+msgid "More Info"
+msgstr ""
+
+#: inc/admin/inc/common/core/class-qode-product-extra-options-for-woocommerce-framework-field-repeater-inner.php:26
+msgid "Add New Item"
+msgstr ""
+
+#: inc/admin/inc/common/core/class-qode-product-extra-options-for-woocommerce-framework-field-repeater.php:26
+msgid "+ Add New Item"
+msgstr ""
+
+#: inc/admin/inc/common/core/class-qode-product-extra-options-for-woocommerce-framework-options.php:147
+msgid "Clear"
+msgstr ""
+
+#: inc/admin/inc/common/core/class-qode-product-extra-options-for-woocommerce-framework-options.php:148
+msgid "Clear color"
+msgstr ""
+
+#: inc/admin/inc/common/core/class-qode-product-extra-options-for-woocommerce-framework-options.php:150
+msgid "Select default color"
+msgstr ""
+
+#: inc/admin/inc/common/core/class-qode-product-extra-options-for-woocommerce-framework-options.php:151
+msgid "Select Color"
+msgstr ""
+
+#: inc/admin/inc/common/core/class-qode-product-extra-options-for-woocommerce-framework-options.php:152
+msgid "Color value"
+msgstr ""
+
+#: inc/admin/inc/common/fields-wp/class-qode-product-extra-options-for-woocommerce-framework-field-wp-file.php:18
+#: inc/admin/inc/common/fields/class-qode-product-extra-options-for-woocommerce-framework-field-file.php:18
+msgid "File Thumbnail"
+msgstr ""
+
+#: inc/admin/inc/common/fields-wp/class-qode-product-extra-options-for-woocommerce-framework-field-wp-file.php:26
+#: inc/admin/inc/common/fields/class-qode-product-extra-options-for-woocommerce-framework-field-file.php:25
+msgid "Select File"
+msgstr ""
+
+#: inc/admin/inc/common/fields-wp/class-qode-product-extra-options-for-woocommerce-framework-field-wp-file.php:26
+#: inc/admin/inc/common/fields-wp/class-qode-product-extra-options-for-woocommerce-framework-field-wp-image.php:41
+#: inc/admin/inc/common/fields/class-qode-product-extra-options-for-woocommerce-framework-field-file.php:25
+#: inc/admin/inc/common/fields/class-qode-product-extra-options-for-woocommerce-framework-field-image.php:41
+#: inc/admin/inc/widgets/fields/class-qode-product-extra-options-for-woocommerce-framework-field-widget-image.php:24
+#: inc/product-add-ons/templates/fields/media.php:62
+msgid "Upload"
+msgstr ""
+
+#: inc/admin/inc/common/fields-wp/class-qode-product-extra-options-for-woocommerce-framework-field-wp-file.php:27
+#: inc/admin/inc/common/fields-wp/class-qode-product-extra-options-for-woocommerce-framework-field-wp-image.php:42
+#: inc/admin/inc/common/fields/class-qode-product-extra-options-for-woocommerce-framework-field-file.php:26
+#: inc/admin/inc/common/fields/class-qode-product-extra-options-for-woocommerce-framework-field-image.php:42
+#: inc/admin/inc/widgets/fields/class-qode-product-extra-options-for-woocommerce-framework-field-widget-image.php:25
+#: inc/product-add-ons/templates/fields/media.php:63
+msgid "Remove"
+msgstr ""
+
+#: inc/admin/inc/common/fields-wp/class-qode-product-extra-options-for-woocommerce-framework-field-wp-image.php:21
+#: inc/admin/inc/common/fields-wp/class-qode-product-extra-options-for-woocommerce-framework-field-wp-image.php:32
+#: inc/admin/inc/common/fields/class-qode-product-extra-options-for-woocommerce-framework-field-image.php:21
+#: inc/admin/inc/common/fields/class-qode-product-extra-options-for-woocommerce-framework-field-image.php:32
+#: inc/admin/inc/widgets/fields/class-qode-product-extra-options-for-woocommerce-framework-field-widget-image.php:18
+#: inc/product-add-ons/templates/fields/media.php:42
+#: inc/product-add-ons/templates/fields/media.php:53
+msgid "Image Thumbnail"
+msgstr ""
+
+#: inc/admin/inc/common/fields-wp/class-qode-product-extra-options-for-woocommerce-framework-field-wp-image.php:41
+#: inc/admin/inc/common/fields/class-qode-product-extra-options-for-woocommerce-framework-field-image.php:41
+#: inc/admin/inc/widgets/fields/class-qode-product-extra-options-for-woocommerce-framework-field-widget-image.php:24
+#: inc/product-add-ons/templates/fields/media.php:62
+msgid "Select Image"
+msgstr ""
+
+#: inc/admin/inc/common/modules/admin/core/class-qode-product-extra-options-for-woocommerce-framework-options-admin.php:19
+msgid "Qode Options"
+msgstr ""
+
+#: inc/admin/inc/common/modules/admin/core/class-qode-product-extra-options-for-woocommerce-framework-options-admin.php:159
+msgid "Saved"
+msgstr ""
+
+#: inc/admin/inc/common/modules/admin/core/class-qode-product-extra-options-for-woocommerce-framework-options-admin.php:164
+#: inc/admin/inc/common/modules/admin/core/class-qode-product-extra-options-for-woocommerce-framework-options-admin.php:191
+msgid "Wrong options trigger"
+msgstr ""
+
+#: inc/admin/inc/common/modules/admin/core/class-qode-product-extra-options-for-woocommerce-framework-options-admin.php:186
+msgid "Options reset to default"
+msgstr ""
+
+#: inc/admin/inc/common/modules/admin/core/class-qode-product-extra-options-for-woocommerce-framework-options-admin.php:272
+#: inc/admin/inc/common/modules/admin/templates/holder-custom.php:18
+#: inc/admin/inc/common/modules/admin/templates/holder.php:19
+msgid "Admin Qode Interactive image"
+msgstr ""
+
+#: inc/admin/inc/common/modules/admin/templates/holder-custom.php:23
+#: inc/admin/inc/common/modules/admin/templates/holder.php:24
+msgid "Search Options"
+msgstr ""
+
+#: inc/admin/inc/common/modules/admin/templates/holder-custom.php:31
+#: inc/admin/inc/common/modules/admin/templates/holder.php:32
+msgid "Saved!"
+msgstr ""
+
+#: inc/admin/inc/common/modules/admin/templates/holder-custom.php:35
+#: inc/admin/inc/common/modules/admin/templates/holder.php:36
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-editor.php:344
+msgid "Save Changes"
+msgstr ""
+
+#: inc/admin/inc/common/modules/admin/templates/holder-custom.php:38
+#: inc/admin/inc/common/modules/admin/templates/holder.php:39
+msgid "Are you sure? You will reset all options to default values. This will also apply on already imported demo."
+msgstr ""
+
+#: inc/admin/inc/common/modules/admin/templates/holder-custom.php:38
+#: inc/admin/inc/common/modules/admin/templates/holder.php:39
+msgid "Reset All"
+msgstr ""
+
+#. translators: 1. Custom Post Type, 2. Custom Post Type Name.
+#: inc/admin/inc/post-types/class-qode-product-extra-options-for-woocommerce-framework-custom-post-type-taxonomy.php:78
+#: inc/admin/inc/post-types/class-qode-product-extra-options-for-woocommerce-framework-custom-post-type-taxonomy.php:98
+msgid "%1$s %2$s"
+msgstr ""
+
+#. translators: 1. Custom Post Type, 2. Custom Post Type Name.
+#: inc/admin/inc/post-types/class-qode-product-extra-options-for-woocommerce-framework-custom-post-type-taxonomy.php:80
+msgid "Search %1$s %2$s"
+msgstr ""
+
+#. translators: 1. Custom Post Type, 2. Custom Post Type Name.
+#: inc/admin/inc/post-types/class-qode-product-extra-options-for-woocommerce-framework-custom-post-type-taxonomy.php:82
+msgid "All %1$s %2$s"
+msgstr ""
+
+#. translators: 1. Custom Post Type, 2. Custom Post Type Name.
+#: inc/admin/inc/post-types/class-qode-product-extra-options-for-woocommerce-framework-custom-post-type-taxonomy.php:84
+msgid "Parent %1$s %2$s"
+msgstr ""
+
+#. translators: 1. Custom Post Type, 2. Custom Post Type Name.
+#: inc/admin/inc/post-types/class-qode-product-extra-options-for-woocommerce-framework-custom-post-type-taxonomy.php:86
+msgid "Parent %1$s %2$s:"
+msgstr ""
+
+#. translators: 1. Custom Post Type, 2. Custom Post Type Name.
+#: inc/admin/inc/post-types/class-qode-product-extra-options-for-woocommerce-framework-custom-post-type-taxonomy.php:88
+msgid "Edit %1$s %2$s"
+msgstr ""
+
+#. translators: 1. Custom Post Type, 2. Custom Post Type Name.
+#: inc/admin/inc/post-types/class-qode-product-extra-options-for-woocommerce-framework-custom-post-type-taxonomy.php:90
+msgid "Update %1$s %2$s"
+msgstr ""
+
+#. translators: 1. Custom Post Type, 2. Custom Post Type Name.
+#: inc/admin/inc/post-types/class-qode-product-extra-options-for-woocommerce-framework-custom-post-type-taxonomy.php:92
+msgid "Add New %1$s %2$s"
+msgstr ""
+
+#. translators: 1. Custom Post Type, 2. Custom Post Type Name.
+#: inc/admin/inc/post-types/class-qode-product-extra-options-for-woocommerce-framework-custom-post-type-taxonomy.php:94
+msgid "New %1$s %2$s Name"
+msgstr ""
+
+#. translators: 1. Custom Post Type, 2. Custom Post Type Name.
+#: inc/admin/inc/post-types/class-qode-product-extra-options-for-woocommerce-framework-custom-post-type-taxonomy.php:96
+msgid "No %1$s %2$s Found"
+msgstr ""
+
+#: inc/admin/inc/post-types/class-qode-product-extra-options-for-woocommerce-framework-custom-post-type-taxonomy.php:124
+#: inc/admin/inc/post-types/class-qode-product-extra-options-for-woocommerce-framework-custom-post-type.php:243
+msgid "base"
+msgstr ""
+
+#: inc/admin/inc/shortcodes/translators/elementor/class-qode-product-extra-options-for-woocommerce-framework-elementor-translator.php:58
+msgid "Content"
+msgstr ""
+
+#: inc/admin/inc/shortcodes/translators/elementor/class-qode-product-extra-options-for-woocommerce-framework-elementor-translator.php:180
+msgid "Item"
+msgstr ""
+
+#: inc/admin/inc/shortcodes/translators/elementor/class-qode-product-extra-options-for-woocommerce-framework-elementor-translator.php:343
+msgid "QODE Product Extra Options"
+msgstr ""
+
+#: inc/admin/inc/shortcodes/translators/elementor/class-qode-product-extra-options-for-woocommerce-framework-elementor-translator.php:609
+msgid "Developer Tools"
+msgstr ""
+
+#: inc/admin/inc/shortcodes/translators/elementor/class-qode-product-extra-options-for-woocommerce-framework-elementor-translator.php:617
+msgid "Show Shortcode Snippet"
+msgstr ""
+
+#: inc/admin/inc/widgets/class-qode-product-extra-options-for-woocommerce-framework-widget.php:213
+msgid "There are no options for this widget."
+msgstr ""
+
+#: inc/general/dashboard/admin/cart-and-order-options.php:22
+msgid "Cart and Order"
+msgstr ""
+
+#: inc/general/dashboard/admin/cart-and-order-options.php:23
+msgid "Set the cart options of the Product Add-ons plugin on the Cart and Checkout pages"
+msgstr ""
+
+#: inc/general/dashboard/admin/cart-and-order-options.php:35
+msgid "Show Options in the Cart Page"
+msgstr ""
+
+#: inc/general/dashboard/admin/cart-and-order-options.php:36
+msgid "Enable to show the details of the options in the cart page"
+msgstr ""
+
+#: inc/general/dashboard/admin/cart-and-order-options.php:45
+msgid "Show the Replacement Image in Cart"
+msgstr ""
+
+#: inc/general/dashboard/admin/cart-and-order-options.php:46
+msgid "Enable to replace product image with the Option image in the cart"
+msgstr ""
+
+#: inc/general/dashboard/admin/cart-and-order-options.php:55
+msgid "Hide Options in the Order Email"
+msgstr ""
+
+#: inc/general/dashboard/admin/cart-and-order-options.php:56
+msgid "Enable to hide free options in the order email"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:22
+msgid "Welcome to QODE Product Extra Options for WooCommerce"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:23
+msgid "It's time to set up the Product Extra Options feature on your website"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:32
+msgid "Choose a Button in WooCommerce Loops"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:33
+msgid "Choose the button to display on WooCommerce archive pages"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:35
+msgid "\"Select options\" button"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:36
+msgid "\"Add To Cart\" button"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:46
+msgid "Label for \"Select options\" button"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:47
+msgid "Enter the text for the \"Select options\" button"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:48
+msgid "Select options"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:64
+msgid "Option Positioning on Single Product Pages"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:65
+msgid "Choose the position for the options blocks on product single pages"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:67
+msgid "Before \"Add to Cart\""
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:68
+msgid "After \"Add To Cart\""
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:78
+msgid "Hide Titles and Images of Option Groups"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:79
+msgid "Enable to hide titles and images set in for the individual Options you added to your Blocks"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:88
+msgid "Hide Images From the Single Options"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:89
+msgid "Enable to hide images uploaded for individual Options"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:100
+msgid "Change Single Product Base Price With Calculated Total"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:101
+msgid "Enable to replace the product base price (below the title) with the newly calculated total, depending on the selected options"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:110
+msgid "Total Price Box"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:111
+msgid "Set which info you'd like to show in the Total Price box"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:113
+msgid "Show product price and total options"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:114
+msgid "Show the final total but hide options total only if the value is 0"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:115
+msgid "Show only the final total"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:116
+msgid "Hide price box on the product page"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:126
+msgid "Hide \"Add to Cart\" Until the Required Options Are Selected"
+msgstr ""
+
+#: inc/general/dashboard/admin/general-options.php:127
+msgid "Enable to hide the \"Add to Cart\" button until the user selects the required options"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:22
+msgid "Block Styles"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:23
+msgid "Configure style options to customize the add-ons you have created"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:39
+msgid "Block Heading"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:40
+msgid "Choose which heading to use for the titles in the block of options"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:50
+msgid "Block Background"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:51
+msgid "Choose the background color for all block options"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:60
+msgid "Block Content Padding"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:61
+msgid "Set padding that will be applied for block content in format: top right bottom left (e.g. 10px 5px 10px 5px)"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:71
+msgid "Toggle Opened by Default"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:72
+msgid "Enable to show the toggle opened by default"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:90
+msgid "Required Product Options"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:98
+msgid "Required Option Color"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:99
+msgid "Set the color for the required Option message"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:108
+msgid "Required Option Text"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:109
+msgid "Input text for the required Option"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:110
+msgid "This is required option"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:117
+msgid "Form Style"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:125
+msgid "Enable Predefined Style"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:126
+msgid "Inherit form style from the theme or set predefined styling"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:128
+msgid "Theme Style"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:129
+msgid "Predefined Style"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:139
+msgid "Select Style"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:140
+msgid "Choose the style for the select dropdown input fields (This applies only to select input fields where select2 script has been initialized)"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:142
+msgid "Only select fields from the plugin"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:143
+msgid "All select fields"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:161
+msgid "Checkbox Style"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:162
+msgid "Choose the style for the checkbox"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:164
+msgid "Square"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:165
+msgid "Rounded"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:183
+msgid "Main Color"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:184
+msgid "Set the main color for selected options"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:200
+msgid "Form Border Color"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:201
+msgid "Set the color for form borders"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:217
+msgid "Radio Button Color"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:218
+msgid "Set the color for radio buttons"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:234
+msgid "Radio Buttons Color Inactive"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:235
+msgid "Set the color of the radio buttons when unchecked"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:251
+msgid "Label Font Size"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:252
+msgid "Set the label font size in pixels"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:269
+msgid "Description Font Size"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:270
+msgid "Set the description font size in pixels"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:287
+msgid "Form Style Custom CSS Class"
+msgstr ""
+
+#: inc/general/dashboard/admin/style-options.php:288
+msgid "Set a custom css class for the form style holder if you want to be able to use it and apply your own styling with the css selector that you have defined"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-colorpicker.php:28
+msgid "In picker show"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-colorpicker.php:33
+msgid "Display default color or placeholder text"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-colorpicker.php:46
+msgid "A default color"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-colorpicker.php:47
+msgid "A placeholder text"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-colorpicker.php:65
+msgid "Default color"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-colorpicker.php:70
+msgid "Choose default color"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-colorpicker.php:101
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:234
+msgid "Placeholder"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-colorpicker.php:106
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:239
+msgid "Enter placeholder text"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:41
+msgid "Date format"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:46
+msgid "Choose date format"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:59
+msgid "Day / Month / Year"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:60
+msgid "Month / Day / Year"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:61
+msgid "Day . Month . Year"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:78
+msgid "Year"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:83
+msgid "Set start and end year"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:94
+msgid "Start year"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:113
+msgid "End year"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:143
+msgid "Default date"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:148
+msgid "Choose default date"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:162
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:163
+msgid "Current day"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:164
+msgid "Set a specific day"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:165
+msgid "Set a time interval from current day"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:166
+msgid "First available day"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:183
+msgid "Specific day"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:188
+msgid "Set precise day"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:218
+msgid "For default date, calculate"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:223
+msgid "Set value to calculate from current day specified amount of days or months"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:234
+msgid "Number Amount"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:286
+msgid "From current day"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:297
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:576
+#: inc/product-add-ons/class-qode-product-extra-options-for-woocommerce-frontend-module.php:123
+msgid "Days"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:298
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:578
+#: inc/product-add-ons/class-qode-product-extra-options-for-woocommerce-frontend-module.php:125
+msgid "Months"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:299
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:579
+#: inc/product-add-ons/class-qode-product-extra-options-for-woocommerce-frontend-module.php:126
+msgid "Years"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:319
+msgid "Selectable dates"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:324
+msgid "Choose date rule limit"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:338
+msgid "Set no limits"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:339
+msgid "Set a range of days"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:340
+msgid "Set a specific date range"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:341
+msgid "Disable dates previous to current day"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:358
+msgid "Selectable days ranges"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:363
+msgid "Set days range limit"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:374
+msgid "day min"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:392
+msgid "day max"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:421
+msgid "Selectable date ranges"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:426
+msgid "Set date range limit"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:437
+msgid "date min"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:458
+msgid "date max"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:490
+msgid "Enable / disable specific days"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:495
+msgid "Enable this option in order to configure corresponding rules"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:522
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:777
+msgid "Rule type"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:527
+msgid "Choose rule type"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:539
+msgid "these dates in calendar"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:550
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:805
+msgid "Enable"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:551
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:806
+msgid "Disable"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:577
+#: inc/product-add-ons/class-qode-product-extra-options-for-woocommerce-frontend-module.php:124
+msgid "Days of the week"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:594
+#: inc/product-add-ons/class-qode-product-extra-options-for-woocommerce-frontend-module.php:141
+msgid "specific day"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:614
+#: inc/product-add-ons/class-qode-product-extra-options-for-woocommerce-frontend-module.php:161
+msgid "day(s) in week"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:625
+#: inc/product-add-ons/class-qode-product-extra-options-for-woocommerce-frontend-module.php:172
+msgid "Monday"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:626
+#: inc/product-add-ons/class-qode-product-extra-options-for-woocommerce-frontend-module.php:173
+msgid "Tuesday"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:627
+#: inc/product-add-ons/class-qode-product-extra-options-for-woocommerce-frontend-module.php:174
+msgid "Wednesday"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:628
+#: inc/product-add-ons/class-qode-product-extra-options-for-woocommerce-frontend-module.php:175
+msgid "Thursday"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:629
+#: inc/product-add-ons/class-qode-product-extra-options-for-woocommerce-frontend-module.php:176
+msgid "Friday"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:630
+#: inc/product-add-ons/class-qode-product-extra-options-for-woocommerce-frontend-module.php:177
+msgid "Saturday"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:631
+#: inc/product-add-ons/class-qode-product-extra-options-for-woocommerce-frontend-module.php:178
+msgid "Sunday"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:644
+#: inc/product-add-ons/class-qode-product-extra-options-for-woocommerce-frontend-module.php:191
+msgid "month(s)"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:666
+#: inc/product-add-ons/class-qode-product-extra-options-for-woocommerce-frontend-module.php:213
+msgid "year(s)"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:694
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-conditional-logic.php:347
+msgid "Add rule"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:712
+msgid "Show time selector"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:717
+msgid "Enable this option in order to configure time interval and time slot options"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:744
+msgid "Time slots"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:749
+msgid "Enable / disable time slots"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:782
+msgid "Enable / disable rule type"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:794
+msgid "the following time slot(s)"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:827
+msgid "From"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:905
+msgid "To"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:987
+msgid "Add time slot"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:1006
+msgid "Time interval"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:1011
+msgid "Set time interval up to 30 sconds, minutes or hours"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:1022
+msgid "time"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:1074
+msgid "interval tipe"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:1085
+msgid "Seconds"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:1086
+msgid "Minutes"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:1087
+msgid "Hours"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:1109
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:532
+msgid "Required"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-date.php:1114
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:537
+msgid "Enable to make this option mandatory for users"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-heading.php:24
+msgid "Heading Text"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-heading.php:29
+msgid "Enter a heading text"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-heading.php:46
+msgid "Heading Tag"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-heading.php:51
+msgid "Set a heading tag for the text"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-heading.php:79
+msgid "Heading Class"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-heading.php:84
+msgid " A comma-separated list of CSS classes for the heading tag"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-heading.php:101
+msgid "Heading Color"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-heading.php:106
+msgid "Set a color for this heading"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-separator.php:24
+msgid "Separator Style"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-separator.php:29
+msgid "Choose the separator style"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-separator.php:42
+msgid "Solid Border"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-separator.php:43
+msgid "Double Border"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-separator.php:44
+msgid "Dotted Border"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-separator.php:45
+msgid "Dashed Border"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-separator.php:46
+msgid "Empty Space"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-separator.php:63
+msgid "Separator Class"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-separator.php:68
+msgid " A comma-separated list of CSS classes for the separator holder"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-separator.php:85
+msgid "Width"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-separator.php:90
+msgid "Set the width value for the separator (value is in % units)"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-separator.php:120
+msgid "Height"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-separator.php:125
+msgid "Set the height value for the separator (value is in px units)"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-separator.php:153
+msgid "Border Color"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-separator.php:158
+msgid "Set the color for the separator border"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-text.php:24
+msgid "Text Content"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-text.php:29
+msgid "Input your textual content (allows all HTML that is permitted in post content)"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-text.php:56
+msgid "Text Content Class"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-html-text.php:61
+msgid " A comma-separated list of CSS classes for the content holder"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-product.php:28
+msgid "Choose product"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addon-types/template-product.php:33
+msgid "Choose one of the products"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-conditional-logic.php:27
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-conditional-logic.php:306
+#: inc/product-add-ons/class-qode-product-extra-options-for-woocommerce-frontend-module.php:246
+msgid "Select an add-on"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-conditional-logic.php:55
+msgid "Empty title"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-conditional-logic.php:138
+msgid "Adjust Conditions to Show or Hide This Set of Options"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-conditional-logic.php:141
+msgid "Enable to set rules to hide or show the Options"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-conditional-logic.php:167
+msgid "Show/Hide on Specific Variations"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-conditional-logic.php:170
+msgid "Enable to set rules to hide or show the Options for specific product variations"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-conditional-logic.php:196
+msgid "Display Rules"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-conditional-logic.php:201
+msgid "Set conditions for rules to be displayed"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-conditional-logic.php:220
+msgid "Show"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-conditional-logic.php:221
+msgid "Hide"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-conditional-logic.php:232
+msgid "variable product specific variation(s)"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-conditional-logic.php:266
+msgid "Set conditions"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-conditional-logic.php:271
+msgid "only if"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-conditional-logic.php:280
+msgid "All of these rules"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-conditional-logic.php:281
+msgid "Any of these rules"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-conditional-logic.php:287
+msgid "match"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-conditional-logic.php:318
+msgid "is"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-conditional-logic.php:328
+#: inc/product-add-ons/templates/front/addons/select.php:51
+msgid "Select an option"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-conditional-logic.php:332
+msgid "Selected"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-conditional-logic.php:333
+msgid "Not selected"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-conditional-logic.php:334
+msgid "Empty"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-conditional-logic.php:335
+msgid "Not empty"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-editor.php:20
+msgctxt "Add-on editor panel (option action)"
+msgid "Delete"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-editor.php:25
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-editor.php:290
+msgid "Confirm delete"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-editor.php:26
+msgid "Are you sure you want to delete this option?"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-editor.php:27
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-editor.php:292
+msgid "Yes, delete"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-editor.php:80
+msgid "back to the type choice"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-editor.php:131
+msgid "Title"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-editor.php:136
+msgid "Title to show before the options"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-editor.php:166
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:284
+msgid "Description"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-editor.php:171
+msgid "Description to show before the options"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-editor.php:203
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-editor.php:313
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-editor.php:270
+msgid "Move"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-editor.php:259
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-editor.php:377
+msgid "Selected by default"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-editor.php:517
+msgid "Cancel"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-editor.php:528
+msgid "Add HTML element"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-addon-editor.php:566
+msgid "Add option for the user"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:36
+msgid "Show as"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:41
+msgid "Choose swatch type"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:54
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:170
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:171
+msgid "Color swatch"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:55
+msgid "Image swatch"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:72
+msgid "Color"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:77
+msgid "For gradient color set both color values, and for solid color set just first color"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:123
+msgid "Gradient rendering"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:128
+msgid "For gradient rendering option to work set both color values"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:142
+msgid "Smooth"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:159
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:352
+msgid "Image"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:164
+msgid "Upload an image for the image swatch"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:195
+msgid "Label"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:200
+msgid "Enter label text"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:261
+msgid "Tooltip"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:266
+msgid "Enter tooltip text"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:289
+msgid "Enter description text"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:313
+msgid "Add Image"
+msgstr ""
+
+#. translators: part of text is wrapped with strong HTML tags.
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:320
+msgid "Enable to upload an image for the Option. You can use this image to replace the default product image"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:357
+msgid "Upload an image for the option"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:397
+msgid "Price"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:402
+msgid "Choose price behavior"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:410
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:416
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:425
+msgid "Product price doesn't change - free option"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:411
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:417
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:426
+msgid "Product price increase - set option price"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:412
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:418
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:427
+msgid "Product price decrease - set discount price"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:419
+msgid "Value multiplied by product price"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:428
+msgid "Use price of linked product"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:429
+msgid "Discount price of linked product"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:456
+#: inc/product-add-ons/class-qode-product-extra-options-for-woocommerce-frontend-module.php:248
+msgid "Option cost"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:461
+msgid "Set option cost depending on price behavior option (REGULAR or DISCOUNT price)"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:472
+msgid "regular or discount price"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:481
+msgid "sale price"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:491
+msgid "Fixed amount"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:492
+msgid "Percentage"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:496
+msgid "Price multiplied by value"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:500
+msgid "Price multiplied by string length"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:571
+msgid "Limit Input"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:576
+msgid "Limit input characters to certain value"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:604
+msgid "Number of Characters"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:609
+msgid "Set min and max value of characters for the input"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:618
+msgid "MIN"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:622
+msgid "MAX"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:645
+msgid "Multiple upload"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:650
+msgid "Enable to allow upload multiple files in the uploader"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:678
+msgid "Users can upload a max of"
+msgstr ""
+
+#: inc/product-add-ons/addons/admin-pages/addons-view/templates/template-option-common-fields.php:683
+msgid "Set the max number of files a user can upload or leave empty if the user can upload files without any limits"
+msgstr ""
+
+#. translators: Add-on edit > Option configuration.
+#: inc/product-add-ons/addons/class-qode-product-extra-options-for-woocommerce-addon.php:756
+msgid "Selection type"
+msgstr ""
+
+#. translators: Add-on edit > Option configuration.
+#: inc/product-add-ons/addons/class-qode-product-extra-options-for-woocommerce-addon.php:774
+msgid "Force User to Select an Option"
+msgstr ""
+
+#. translators: Add-on edit > Option configuration.
+#: inc/product-add-ons/addons/class-qode-product-extra-options-for-woocommerce-addon.php:784
+msgid "Enable to force the user to select an option of the select to proceed with the purchase"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/class-qode-product-extra-options-for-woocommerce-admin-page-block-options.php:57
+msgid "Unfortunately there is no any blocks at this moment. Please add some"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/class-qode-product-extra-options-for-woocommerce-admin-page-block-options.php:72
+#: inc/product-add-ons/dashboard/admin/blocks-editor-dashboard-options.php:21
+msgid "Blocks Editor"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/class-qode-product-extra-options-for-woocommerce-admin-page-block-options.php:73
+msgid "Add New"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/class-qode-product-extra-options-for-woocommerce-all-blocks-table.php:27
+msgid "Blocks updated"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/class-qode-product-extra-options-for-woocommerce-all-blocks-table.php:38
+msgid "No blocks found. Click on ADD NEW and create your first block"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/class-qode-product-extra-options-for-woocommerce-all-blocks-table.php:111
+msgid "Products:"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/class-qode-product-extra-options-for-woocommerce-all-blocks-table.php:133
+msgid "Categories:"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/class-qode-product-extra-options-for-woocommerce-all-blocks-table.php:150
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-rules.php:61
+msgid "All products"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/class-qode-product-extra-options-for-woocommerce-all-blocks-table.php:232
+msgid "Are you sure you want to delete this block?"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/class-qode-product-extra-options-for-woocommerce-all-blocks-table.php:250
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-editor.php:58
+msgid "Block Name"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/class-qode-product-extra-options-for-woocommerce-all-blocks-table.php:251
+msgid "Priority"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/class-qode-product-extra-options-for-woocommerce-all-blocks-table.php:252
+msgid "Show in"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/class-qode-product-extra-options-for-woocommerce-all-blocks-table.php:253
+msgid "Active"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/class-qode-product-extra-options-for-woocommerce-all-blocks-table.php:254
+msgid "Actions"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/class-qode-product-extra-options-for-woocommerce-all-blocks-table.php:274
+msgid "All"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/class-qode-product-extra-options-for-woocommerce-all-blocks-table.php:281
+msgid "Public"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/class-qode-product-extra-options-for-woocommerce-all-blocks-table.php:295
+msgid "Private"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/class-qode-product-extra-options-for-woocommerce-all-blocks-table.php:357
+msgid "guest"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-editor.php:32
+msgid "Product Extra Options for WooCommerce - Edit Block"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-editor.php:40
+msgid "BACK TO BLOCK EDITOR LIST"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-editor.php:43
+msgid "Scroll To Options"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-editor.php:63
+msgid "Input a name for this Block of Options"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-editor.php:97
+msgid "Block Priority Level"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-editor.php:102
+msgid "Set the priority level assigned to this block. This will allow you to arrange the order of different Blocks with Options. 1 is the highest priority level"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-editor.php:144
+msgid "Options"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-editor.php:147
+msgid "Addons updated"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-editor.php:211
+msgctxt "singular option on Add-on title. Ex: Date (1 option)"
+msgid "option"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-editor.php:211
+msgctxt "several options on Add-on title. Ex: Date (2 options)"
+msgid "options"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-editor.php:240
+msgid "Edit"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-editor.php:255
+msgid "Duplicate"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-editor.php:276
+msgid "Delete"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-editor.php:291
+msgid "Are you sure you want to delete this add-on?"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-editor.php:313
+msgid "Save Block Changes first then start adding Options to this Block!"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-editor.php:315
+msgid "Start adding your Options to this Block!"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-editor.php:322
+msgid "Add option"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-rules.php:33
+msgid "Show This Block of Options In"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-rules.php:38
+msgid "Choose to show these options in all products or only specific products or categories"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-rules.php:62
+msgid "Specific products or categories"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-rules.php:80
+msgid "Show in Products"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-rules.php:85
+msgid "Choose the products you wish to show this block for"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-rules.php:123
+msgid "Show in Categories"
+msgstr ""
+
+#: inc/product-add-ons/blocks/admin-pages/blocks-view/templates/template-block-rules.php:128
+msgid "Choose product categories to show this block for"
+msgstr ""
+
+#. translators: %s: product name
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-cart.php:148
+msgctxt "Error message when an add-on type Product is out of stock"
+msgid "You cannot add &quot;%s&quot; to the cart because the product is out of stock."
+msgstr ""
+
+#. translators: 1: product name 2: quantity in stock
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-cart.php:157
+msgctxt "When add-on type Product is added to cart with more amount than allowed"
+msgid "You cannot add that amount of &quot;%1$s&quot; to the cart because there is not enough stock (%2$s remaining)."
+msgstr ""
+
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-cart.php:174
+msgctxt "Redirect to cart page"
+msgid "View cart"
+msgstr ""
+
+#. translators: 1: quantity in stock 2: current quantity
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-cart.php:176
+msgctxt "If sum of already add-ons type Products added to cart and the current stock selected are higher than expected"
+msgid "You cannot add that amount to the cart &mdash; we have %1$s in stock and you already have %2$s in your cart."
+msgstr ""
+
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-cart.php:518
+msgctxt "Label shown on Plugin Bundle products when is added to cart."
+msgid "Base price"
+msgstr ""
+
+#. translators: Label shown on cart for add-on type Upload.
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-cart.php:1230
+msgid "Attached file"
+msgstr ""
+
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:126
+msgid "Heading"
+msgstr ""
+
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:130
+msgid "Separator"
+msgstr ""
+
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:134
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:215
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:216
+msgid "HTML Text"
+msgstr ""
+
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:150
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:151
+msgid "Checkbox"
+msgstr ""
+
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:155
+msgid "Radio"
+msgstr ""
+
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:156
+msgid "Radio button"
+msgstr ""
+
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:160
+msgid "Input text"
+msgstr ""
+
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:161
+msgid "Input field"
+msgstr ""
+
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:165
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:166
+msgid "Textarea"
+msgstr ""
+
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:175
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:176
+msgid "Number"
+msgstr ""
+
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:180
+msgid "Select"
+msgstr ""
+
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:181
+msgid "Select item"
+msgstr ""
+
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:185
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:186
+msgid "Label or image"
+msgstr ""
+
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:190
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:191
+msgid "Product"
+msgstr ""
+
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:195
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:196
+msgid "Date"
+msgstr ""
+
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:200
+msgid "File upload"
+msgstr ""
+
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:201
+msgid "File uploader"
+msgstr ""
+
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:205
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:206
+msgid "Color picker"
+msgstr ""
+
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:210
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:211
+msgid "HTML Heading"
+msgstr ""
+
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:220
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-main.php:221
+msgid "HTML Separator"
+msgstr ""
+
+#. translators: string that is created as a description of a private product that the plugin creates.
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-sold-individually-product.php:86
+msgid "This product has been created automatically by the plugin QODE Product Extra Options for WooCommerce. You must not edit it, or the plugin might not work properly. The main function of this product is to be used for the feature \"Sold individually\"."
+msgstr ""
+
+#. translators: string that is printed after buying an add-on individually. You can see it in the order edit page.
+#: inc/product-add-ons/blocks/class-qode-product-extra-options-for-woocommerce-sold-individually-product.php:364
+msgid "Individually sold add-on from"
+msgstr ""
+
+#: inc/product-add-ons/class-qode-product-extra-options-for-woocommerce-frontend-module.php:99
+msgid "This is not a product page!"
+msgstr ""
+
+#: inc/product-add-ons/class-qode-product-extra-options-for-woocommerce-frontend-module.php:247
+msgid "Discount"
+msgstr ""
+
+#: inc/product-add-ons/class-qode-product-extra-options-for-woocommerce-frontend-module.php:249
+msgid "Block name is required"
+msgstr ""
+
+#: inc/product-add-ons/class-qode-product-extra-options-for-woocommerce-frontend-module.php:250
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#. translators: (ADMIN) Message when restock the Product quantity due to order cancelled.
+#: inc/product-add-ons/class-qode-product-extra-options-for-woocommerce-frontend-module.php:428
+#: inc/product-add-ons/class-qode-product-extra-options-for-woocommerce-frontend-module.php:468
+msgid "Stock levels increased for add-ons type product:"
+msgstr ""
+
+#. translators: (ADMIN) Message added to order notes when add-on type Product has stock.
+#: inc/product-add-ons/class-qode-product-extra-options-for-woocommerce-frontend-module.php:506
+msgid "Stock levels reduced for addons type product:"
+msgstr ""
+
+#: inc/product-add-ons/dashboard/admin/blocks-editor-dashboard-options.php:22
+msgid "Block Items"
+msgstr ""
+
+#: inc/product-add-ons/templates/fields/dimensions.php:16
+msgctxt "Position in the \"Dimensions\" field"
+msgid "Top"
+msgstr ""
+
+#: inc/product-add-ons/templates/fields/dimensions.php:17
+msgctxt "Position in the \"Dimensions\" field"
+msgid "Right"
+msgstr ""
+
+#: inc/product-add-ons/templates/fields/dimensions.php:18
+msgctxt "Position in the \"Dimensions\" field"
+msgid "Bottom"
+msgstr ""
+
+#: inc/product-add-ons/templates/fields/dimensions.php:19
+msgctxt "Position in the \"Dimensions\" field"
+msgid "Left"
+msgstr ""
+
+#: inc/product-add-ons/templates/fields/dimensions.php:98
+msgctxt "Tooltip in the \"Dimensions\" field"
+msgid "Link values together"
+msgstr ""
+
+#: inc/product-add-ons/templates/front/addons-price-table.php:18
+msgid "Product price"
+msgstr ""
+
+#: inc/product-add-ons/templates/front/addons-price-table.php:19
+msgid "Total options"
+msgstr ""
+
+#: inc/product-add-ons/templates/front/addons-price-table.php:20
+msgid "Order total"
+msgstr ""
+
+#: inc/product-add-ons/templates/front/addons/file.php:178
+#: inc/product-add-ons/templates/front/addons/file.php:183
+msgid "upload"
+msgstr ""
+
+#: inc/product-add-ons/templates/front/addons/product.php:194
+msgid "SKU:"
+msgstr ""
+
+#: inc/product-add-ons/templates/front/addons/product.php:225
+msgid "in stock"
+msgstr ""
+
+#: inc/product-add-ons/templates/front/addons/product.php:227
+msgid "In stock"
+msgstr ""
+
+#: inc/product-add-ons/templates/front/addons/product.php:231
+msgid "Out of stock"
+msgstr ""
+
+#: inc/product-add-ons/templates/front/addons/product.php:276
+msgid "Add to cart"
+msgstr ""
+
+#: inc/product-add-ons/templates/front/addons/product.php:296
+msgid "View product"
+msgstr ""
+
+#. Translators: %1$d is $min_length for input, %2$d is $max_length for input
+#: inc/product-add-ons/templates/front/addons/text.php:174
+msgid "You need to enter between %1$d and %2$d characters."
+msgstr ""
+
+#. Translators: %1$d is $min_length for input
+#: inc/product-add-ons/templates/front/addons/text.php:177
+msgid "You need to enter at least %1$d characters."
+msgstr ""
+
+#. Translators: %1$d is $max_length for input
+#: inc/product-add-ons/templates/front/addons/text.php:180
+msgid "You need to enter less than %1$d characters."
+msgstr ""
+
+#: inc/product-add-ons/templates/front/block.php:70
+msgid "No title"
+msgstr ""

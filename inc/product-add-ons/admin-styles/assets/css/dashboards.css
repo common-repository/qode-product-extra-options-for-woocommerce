@@ -1,0 +1,1737 @@
+/* ==========================================================================
+    Color variables - start
+   ========================================================================== */
+/* Input fields */
+/* ==========================================================================
+    Color variables - end
+   ========================================================================== */
+/* ==========================================================================
+    Font mixins - start
+   ========================================================================== */
+@font-face {
+	font-family: 'Roboto';
+	src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Heebo';
+	src: url("../fonts/Heebo-Light.ttf") format("truetype");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: 'Heebo';
+	src: url("../fonts/Heebo-Regular.ttf") format("truetype");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'DM Sans';
+	src: url("../fonts/DMSans-Regular.ttf") format("truetype");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'DM Sans';
+	src: url("../fonts/DMSans-Medium.ttf") format("truetype");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'DM Sans';
+	src: url("../fonts/DMSans-SemiBold.ttf") format("truetype");
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'DM Sans';
+	src: url("../fonts/DMSans-Bold.ttf") format("truetype");
+	font-weight: 700;
+}
+
+/* This can be changed */
+/* This can be changed */
+/* This can be changed */
+/* ==========================================================================
+    Font mixins - end
+   ========================================================================== */
+/* ==========================================================================
+    Button mixins - start
+   ========================================================================== */
+/* ==========================================================================
+    Button mixins - end
+   ========================================================================== */
+/* ==========================================================================
+    Animation keyframes - begin
+   ========================================================================== */
+@keyframes qode-spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(359deg);
+	}
+}
+
+@keyframes qode-animate-underline-from-left {
+	0% {
+		transform: scaleX(1);
+		transform-origin: right;
+	}
+	37% {
+		transform: scaleX(0);
+		transform-origin: right;
+	}
+	38% {
+		transform: scaleX(0);
+		transform-origin: left;
+	}
+	100% {
+		transform: scaleX(1);
+		transform-origin: left;
+	}
+}
+
+/* ==========================================================================
+    Animation keyframes - end
+   ========================================================================== */
+
+@keyframes qode-scaleout {
+	0% {
+		-webkit-transform: scale(0);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 0;
+	}
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-btn[disabled="disabled"] {
+	opacity: 0.5;
+	filter: blur(0.6px);
+	pointer-events: none;
+	background-color: #696969;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-environment-section .qodef-section-wrapper-inner,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-system-info-section .qodef-section-wrapper-inner,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-database-info-section .qodef-section-wrapper-inner,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-theme-info-section .qodef-section-wrapper-inner,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-plugins-info-section .qodef-section-wrapper-inner {
+	background-color: #fff;
+	padding: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-environment-section .qodef-row-wrapper,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-system-info-section .qodef-row-wrapper,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-database-info-section .qodef-row-wrapper,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-theme-info-section .qodef-row-wrapper,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-plugins-info-section .qodef-row-wrapper {
+	margin-top: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-environment-section .qodef-field-section.qodef-custom,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-system-info-section .qodef-field-section.qodef-custom,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-database-info-section .qodef-field-section.qodef-custom,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-theme-info-section .qodef-field-section.qodef-custom,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-plugins-info-section .qodef-field-section.qodef-custom {
+	border: 1px solid #e1e1e1;
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-environment-section .qodef-field-section.qodef-custom .qodef-title,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-system-info-section .qodef-field-section.qodef-custom .qodef-title,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-database-info-section .qodef-field-section.qodef-custom .qodef-title,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-theme-info-section .qodef-field-section.qodef-custom .qodef-title,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-plugins-info-section .qodef-field-section.qodef-custom .qodef-title {
+	font-size: 18px;
+	line-height: 1.1em;
+	font-weight: 600;
+	font-family: "DM Sans", sans-serif;
+	margin: 0 0 15px;
+	color: #000000;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-environment-section .qodef-field-section.qodef-custom .qodef-field-desc,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-system-info-section .qodef-field-section.qodef-custom .qodef-field-desc,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-database-info-section .qodef-field-section.qodef-custom .qodef-field-desc,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-theme-info-section .qodef-field-section.qodef-custom .qodef-field-desc,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-plugins-info-section .qodef-field-section.qodef-custom .qodef-field-desc {
+	padding: 0 15px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-environment-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-system-info-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-database-info-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-theme-info-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-plugins-info-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row {
+	display: table;
+	border-bottom: 1px solid #e1e1e1;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-environment-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row .qodef-info-label,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-environment-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row .qodef-info-value,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-system-info-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row .qodef-info-label,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-system-info-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row .qodef-info-value,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-database-info-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row .qodef-info-label,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-database-info-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row .qodef-info-value,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-theme-info-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row .qodef-info-label,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-theme-info-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row .qodef-info-value,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-plugins-info-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row .qodef-info-label,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-plugins-info-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row .qodef-info-value {
+	display: table-cell;
+	width: 50%;
+	padding: 10px 15px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-environment-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row .qodef-info-label,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-system-info-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row .qodef-info-label,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-database-info-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row .qodef-info-label,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-theme-info-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row .qodef-info-label,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-plugins-info-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row .qodef-info-label {
+	font-weight: 600;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-environment-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row .qodef-info-value,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-system-info-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row .qodef-info-value,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-database-info-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row .qodef-info-value,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-theme-info-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row .qodef-info-value,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-wordpress-plugins-info-section .qodef-field-section.qodef-custom .qodef-info-box-inner .qodef-info-box-row .qodef-info-value {
+	color: #3e87be;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-php-info-section .qodef-section-wrapper-inner {
+	background-color: #fff;
+	padding: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-php-info-section .qodef-row-wrapper {
+	margin-top: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-php-info-section .qodef-field-section.qodef-custom {
+	padding: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-php-info-section .qodef-field-section.qodef-custom table.form-table {
+	table-layout: fixed;
+	width: 100%;
+	margin: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-php-info-section .qodef-field-section.qodef-custom table.form-table:first-of-type tr.h {
+	border-top: 1px solid #e1e1e1;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-php-info-section .qodef-field-section.qodef-custom table.form-table h1 {
+	font-size: 18px;
+	line-height: 1.1em;
+	font-weight: 600;
+	font-family: "DM Sans", sans-serif;
+	margin: 0 0 15px;
+	color: #000000;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-php-info-section .qodef-field-section.qodef-custom table.form-table img {
+	float: right;
+	border: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-php-info-section .qodef-field-section.qodef-custom table.form-table tr {
+	border: 1px solid #e1e1e1;
+	border-top: none;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-php-info-section .qodef-field-section.qodef-custom table.form-table th, #qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-php-info-section .qodef-field-section.qodef-custom table.form-table td {
+	padding: 10px 15px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-php-info-section .qodef-field-section.qodef-custom table.form-table th {
+	width: 50%;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-php-info-section .qodef-field-section.qodef-custom table.form-table td {
+	width: 50%;
+	word-wrap: break-word;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-section-name-qodef-php-info-section .qodef-field-section.qodef-custom .qodef-field-content > h2 {
+	border: 1px solid #e1e1e1;
+	border-bottom: none;
+	margin: 35px 0 0 0;
+	padding: 10px 15px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-debug-info-content .qodef-field-content .qodef-options-in-database {
+	display: grid;
+	grid-template-columns: repeat(2, 50%);
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-debug-info-content .qodef-field-content .qodef-options-in-database > div {
+	border: 1px solid #ebebeb;
+	padding: 10px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-debug-info-content .qodef-field-content .qodef-options-in-database > div.qodef-table-title {
+	border-right: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-create-data-tables .qodef-field-content > .qodef-info-holder,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-clear-data-tables .qodef-field-content > .qodef-info-holder,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-restore-data-tables .qodef-field-content > .qodef-info-holder,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-create-backup-data-tables .qodef-field-content > .qodef-info-holder {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-create-data-tables .qodef-field-content > .qodef-info-holder.qodef-success,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-clear-data-tables .qodef-field-content > .qodef-info-holder.qodef-success,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-restore-data-tables .qodef-field-content > .qodef-info-holder.qodef-success,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-create-backup-data-tables .qodef-field-content > .qodef-info-holder.qodef-success {
+	color: green;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-create-data-tables .qodef-field-content > .qodef-info-holder.qodef-error,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-clear-data-tables .qodef-field-content > .qodef-info-holder.qodef-error,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-restore-data-tables .qodef-field-content > .qodef-info-holder.qodef-error,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-create-backup-data-tables .qodef-field-content > .qodef-info-holder.qodef-error {
+	color: red;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-create-data-tables .qodef-field-content > .qodef-info-holder p,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-create-data-tables .qodef-field-content > .qodef-info-holder .qodef-icon,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-clear-data-tables .qodef-field-content > .qodef-info-holder p,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-clear-data-tables .qodef-field-content > .qodef-info-holder .qodef-icon,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-restore-data-tables .qodef-field-content > .qodef-info-holder p,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-restore-data-tables .qodef-field-content > .qodef-info-holder .qodef-icon,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-create-backup-data-tables .qodef-field-content > .qodef-info-holder p,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-create-backup-data-tables .qodef-field-content > .qodef-info-holder .qodef-icon {
+	margin: 0;
+	fill: currentColor;
+	color: currentColor;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-create-data-tables .qodef-field-content > .qodef-info-holder .qodef-btn,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-clear-data-tables .qodef-field-content > .qodef-info-holder .qodef-btn,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-restore-data-tables .qodef-field-content > .qodef-info-holder .qodef-btn,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-create-backup-data-tables .qodef-field-content > .qodef-info-holder .qodef-btn {
+	margin-left: 15px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-input.qodef-input-error {
+	border-color: #ee2852;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce .qodef-block-error {
+	position: relative;
+	top: 5px;
+	left: 0;
+	color: #ee2852;
+	font-size: 100%;
+	font-weight: 500;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks {
+	min-height: 100vh;
+	margin: 0 0 0 0;
+	padding: 25px 25px 25px 33px;
+	font-family: "DM Sans", sans-serif;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-field-section {
+	flex-direction: row;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-field-section .qodef-field-desc {
+	flex: 0 0 45%;
+	padding: 0 50px 0 0;
+	box-sizing: border-box;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-field-section .qodef-field-content {
+	flex: 0 0 55%;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-dependency-holder {
+	padding-right: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-field-holder-full-width {
+	width: 100%;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-field-holder-full-width .select2-container--default .select2-selection--multiple {
+	min-width: 290px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks + .qodef-admin-spinner {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.15);
+	z-index: 9999;
+	display: none;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks + .qodef-admin-spinner .qodef-inner {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks + .qodef-admin-spinner .qodef-inner .qodef-pulse {
+	width: 32px;
+	height: 32px;
+	margin: -16px 0 0 -16px;
+	border-radius: 16px;
+	background-color: #ee2852;
+	animation: qode-scaleout 1s infinite ease-in-out;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-page-banner {
+	margin-bottom: 20px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-admin-header {
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding: 18px 0;
+	z-index: 10;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-admin-header.qodef-fixed {
+	position: fixed;
+	background-color: #fff;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-admin-header .qodef-header-left {
+	flex: 0 0 65%;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-admin-header .qodef-header-right {
+	flex: 0 0 35%;
+	transition: opacity 0.3s ease;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-admin-header .qodef-header-right-inner {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-admin-header .qodef-header-right-inner > div {
+	margin-right: 17px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-admin-header .qodef-header-right-inner > div:last-child {
+	margin-right: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-admin-header .qodef-header-left-inner {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-admin-header .qodef-header-left-inner > div {
+	margin-right: 45px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-admin-header .qodef-header-left-inner > div:last-child {
+	margin-right: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-admin-header .qodef-logo-holder a {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-admin-header .qodef-logo-holder a img {
+	display: block;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-admin-header .qodef-help-center-holder img {
+	margin-right: 8px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-admin-header .qodef-help-center-holder a {
+	display: flex;
+	align-items: center;
+	font-family: "DM Sans", sans-serif;
+	font-size: 12px;
+	letter-spacing: 0.13em;
+	text-transform: uppercase;
+	color: #000000;
+	text-decoration: none;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-admin-header .qodef-help-center-holder a:hover {
+	color: #ee2852;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-admin-page-heading-wrapper {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column-reverse;
+	margin-bottom: 25px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-admin-page-heading-wrapper .qodef-admin-page-add-block-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-admin-page-heading-wrapper .wp-heading-inline {
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-admin-page-heading-wrapper .qodef-page-title-action {
+	margin: 0 18px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-admin-page-heading-wrapper > .notice {
+	display: none !important;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .subsubsub {
+	position: relative;
+	display: flex;
+	align-items: center;
+	margin: 0;
+	font-family: inherit;
+	z-index: 2;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .subsubsub li {
+	font-size: 0;
+	line-height: 1;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .subsubsub a {
+	padding: 4px 14px;
+	margin: 0;
+	font-size: 14px;
+	line-height: 27px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #717171;
+	border: 0;
+	border-bottom: 2px solid rgba(112, 112, 112, 0.1);
+	box-shadow: none;
+	outline: 0;
+	cursor: pointer;
+	transition: color .2s ease-out, border-color .2s ease-out;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .subsubsub a:hover, #qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .subsubsub a.current {
+	color: #000;
+	border-color: #000;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .subsubsub a .count {
+	color: inherit;
+	font-weight: 400;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .tablenav.top {
+	position: relative;
+	margin: 0 0 23px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .tablenav .tablenav-pages {
+	font-family: "DM Sans", sans-serif;
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #1d1d1d;
+	color: #000;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks #qpeofw-blocks-table .wp-list-table tfoot th,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks #qpeofw-blocks-table .wp-list-table thead th {
+	padding: 9px 11px 8px;
+	font-family: inherit;
+	font-size: 14px;
+	line-height: 1.357142857142857em;
+	font-weight: 600;
+	color: #1d1d1d;
+	border: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks #qpeofw-blocks-table .wp-list-table thead th.column-table_title {
+	width: 20%;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks #qpeofw-blocks-table .wp-list-table thead th.column-priority {
+	width: 15%;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks #qpeofw-blocks-table .wp-list-table thead th.column-show_in {
+	width: 30%;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks #qpeofw-blocks-table .wp-list-table thead th.column-active {
+	width: 12%;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks #qpeofw-blocks-table .wp-list-table thead th.column-actions {
+	width: 13%;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks thead th.check-column,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tfoot th.check-column, #qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tbody th.check-column {
+	padding: 9px 0 8px 11px;
+	vertical-align: middle;
+	border: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks thead th.check-column input, #qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tfoot th.check-column input, #qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tbody th.check-column input {
+	display: block;
+	width: 16px;
+	height: 16px;
+	margin: 0;
+	padding: 0 !important;
+	background-color: #fff;
+	border-color: #b9b9b9;
+	border-radius: 2px;
+	box-shadow: none;
+	outline: none;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks thead th.check-column input:before, #qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tfoot th.check-column input:before, #qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tbody th.check-column input:before {
+	content: '';
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	background-color: transparent;
+	-webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMy4wMTciIGhlaWdodD0iMTAuNDYxIiB2aWV3Qm94PSIwIDAgMTMuMDE3IDEwLjQ2MSI+DQogIDxwYXRoIGQ9Ik0xLDUuNTg5LDQuNjMzLDguNjQ4LDExLjIsMSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC40MDkgMC40MSkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMiIvPg0KPC9zdmc+DQo=");
+	mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMy4wMTciIGhlaWdodD0iMTAuNDYxIiB2aWV3Qm94PSIwIDAgMTMuMDE3IDEwLjQ2MSI+DQogIDxwYXRoIGQ9Ik0xLDUuNTg5LDQuNjMzLDguNjQ4LDExLjIsMSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC40MDkgMC40MSkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMiIvPg0KPC9zdmc+DQo=");
+	-webkit-mask-position: center;
+	mask-position: center;
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks thead th.check-column input:checked, #qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tfoot th.check-column input:checked, #qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tbody th.check-column input:checked {
+	background-color: #ee2852;
+	border-color: #ee2852;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks thead th.check-column input:checked:before, #qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tfoot th.check-column input:checked:before, #qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tbody th.check-column input:checked:before {
+	background-color: #fff;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks thead th.check-column label, #qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tfoot th.check-column label, #qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tbody th.check-column label {
+	background: none;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks {
+	background-color: #fff;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	box-shadow: none;
+	outline: none;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks thead th,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tfoot th {
+	padding: 9px 11px 8px;
+	font-family: inherit;
+	font-size: 14px;
+	line-height: 1.357142857142857em;
+	font-weight: 600;
+	color: #000;
+	border: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks thead th a,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tfoot th a {
+	padding: 0;
+	display: inline-flex;
+	align-items: center;
+	column-gap: 15px;
+	color: inherit;
+	outline: none;
+	box-shadow: none;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks thead th .sorting-indicators,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tfoot th .sorting-indicators {
+	row-gap: 4px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks thead th .sorting-indicator,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tfoot th .sorting-indicator {
+	width: 9px;
+	height: 5px;
+	margin: 0;
+	background-color: #b7b7b7;
+	transition: background-color 0.2s ease-out;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks thead th .sorting-indicator:hover,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tfoot th .sorting-indicator:hover {
+	background-color: #7a7a7a;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks thead th .sorting-indicator:before,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tfoot th .sorting-indicator:before {
+	display: none !important;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks thead th .sorting-indicator.asc,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tfoot th .sorting-indicator.asc {
+	-webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5IiBoZWlnaHQ9IjUiIHZpZXdCb3g9IjAgMCA5IDUiPg0KICA8cGF0aCBkPSJNNC41LDAsOSw1SDBaIiBmaWxsPSIjYjdiN2I3Ii8+DQo8L3N2Zz4=");
+	mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5IiBoZWlnaHQ9IjUiIHZpZXdCb3g9IjAgMCA5IDUiPg0KICA8cGF0aCBkPSJNNC41LDAsOSw1SDBaIiBmaWxsPSIjYjdiN2I3Ii8+DQo8L3N2Zz4=");
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks thead th .sorting-indicator.desc,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tfoot th .sorting-indicator.desc {
+	-webkit-mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5IiBoZWlnaHQ9IjUiIHZpZXdCb3g9IjAgMCA5IDUiPg0KICA8cGF0aCBkPSJNNC41LDAsOSw1SDBaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5IDUpIHJvdGF0ZSgxODApIiBmaWxsPSIjYjdiN2I3Ii8+DQo8L3N2Zz4NCg==");
+	mask-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5IiBoZWlnaHQ9IjUiIHZpZXdCb3g9IjAgMCA5IDUiPg0KICA8cGF0aCBkPSJNNC41LDAsOSw1SDBaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5IDUpIHJvdGF0ZSgxODApIiBmaWxsPSIjYjdiN2I3Ii8+DQo8L3N2Zz4NCg==");
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks thead th.sorted.asc .sorting-indicator.asc,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tfoot th.sorted.asc .sorting-indicator.asc {
+	background-color: #7a7a7a;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks thead th.sorted.desc .sorting-indicator.desc,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tfoot th.sorted.desc .sorting-indicator.desc {
+	background-color: #7a7a7a;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks thead th.column-actions,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tfoot th.column-actions {
+	padding: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tfoot tr th {
+	border-top: 1px solid #eee !important;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tbody tr {
+	background: none;
+	transition: background-color 0.2s ease-out;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tbody tr:hover {
+	background-color: #fcfcfc;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tbody th.check-column {
+	border-top: 1px solid #eee;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tbody td {
+	padding: 9px 11px 8px;
+	vertical-align: middle;
+	font-family: inherit;
+	font-size: 13px;
+	line-height: 1.461538461538462em;
+	font-weight: 400;
+	color: #000;
+	border-top: 1px solid #eee;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tbody td.column-table_title a {
+	position: relative;
+	color: inherit;
+	outline: none;
+	box-shadow: none;
+	font-weight: 600;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tbody td.column-table_title a:hover {
+	text-decoration: underline;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tbody td.column-show_in a {
+	position: relative;
+	color: #1d1d1d;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tbody td.column-show_in a:hover {
+	text-decoration: underline;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tbody td.column-actions {
+	padding: 9px 10px 9px 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tbody td.column-actions .qodef-block-actions > a {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	color: #a5a5a5;
+	border: 0;
+	outline: none;
+	box-shadow: none;
+	width: 30px;
+	height: 30px;
+	margin-right: 4px;
+	transition: color 0.2s ease-out;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tbody td.column-actions .qodef-block-actions > a:last-child {
+	margin-right: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tbody td.column-actions .qodef-block-actions > a svg {
+	display: block;
+	fill: currentColor;
+	flex-shrink: 0;
+	width: 14px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tbody td.column-actions .qodef-block-actions > a:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tbody td.column-actions .qodef-block-actions > a:hover {
+	color: #000;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qode-product-extra-options-for-woocommerce-blocks tbody td.column-actions .qodef-block-actions > a.qodef-action-move {
+	display: none;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-block-update-message {
+	display: none;
+	position: absolute;
+	left: initial;
+	bottom: 0;
+	margin: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper {
+	position: relative;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-addons-tabs {
+	margin-top: 40px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-addons-tabs .qodef-addons-tabs-wrapper-inner {
+	position: relative;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-addons-tabs .qodef-addons-tabs-wrapper-inner .qodef-addon-update-message {
+	display: none;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-addons-tabs .qodef-addons-tabs-wrapper-inner > .notice {
+	display: none !important;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-addons-tabs .qodef-btn.qodef-btn-outlined.qodef-selected {
+	color: #000;
+	background-color: #fff;
+	border-color: #b7b7b7;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-addons-tab #qodef-block-addons-container {
+	margin: 0;
+	padding: 6px 0 0 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-addons-tab #qodef-block-addons-container #qodef-sortable-addons-list {
+	margin: 0 0 15px 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper .qodef-block-list-actions {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 40px 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-save-button {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-block-addons-container li {
+	display: block;
+	width: 100%;
+	margin-bottom: -1px;
+	left: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-block-addons-container li:last-child {
+	margin-bottom: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-block-addons-container .qodef-field-holder {
+	display: block;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-block-addons-container .qodef-field-section {
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 0;
+	align-items: center;
+	padding: 10px 13px 10px;
+	background: #fff;
+	border: 1px solid #eee;
+	border-radius: 5px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-block-addons-container .qodef-addon-editor-left,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-block-addons-container .qodef-addon-editor-right {
+	display: flex;
+	align-items: center;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-block-addons-container .qodef-addon-editor-right {
+	justify-content: space-between;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-block-addons-container .qodef-addon-icon {
+	width: 50px;
+	height: 50px;
+	transition: background-color .2s ease-out;
+	color: #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 20px;
+	flex-shrink: 0;
+	border: 1px solid #eee;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-block-addons-container .qodef-addon-icon svg {
+	fill: currentColor;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-block-addons-container .qodef-addon-name {
+	display: block;
+	font-size: 14px;
+	line-height: 1.1em;
+	font-weight: 600;
+	font-family: "DM Sans", sans-serif;
+	margin: 0 0 15px;
+	color: #000000;
+	margin: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-block-addons-container .qodef-addon-name a {
+	color: currentColor;
+	text-decoration: none;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-block-addons-container .qodef-addon-name a .qodef-addon-options {
+	display: none;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-block-addons-container .qodef-addon-name a:hover {
+	text-decoration: underline;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-block-addons-container .qodef-addon-actions .qodef-action-button {
+	display: inline-block;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-block-addons-container .qodef-addon-actions .qodef-action-button > a {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	color: #a5a5a5;
+	border: 0;
+	outline: none;
+	box-shadow: none;
+	width: 30px;
+	height: 30px;
+	margin-right: 4px;
+	transition: color 0.2s ease-out;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-block-addons-container .qodef-addon-actions .qodef-action-button > a:last-child {
+	margin-right: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-block-addons-container .qodef-addon-actions .qodef-action-button > a svg {
+	display: block;
+	fill: currentColor;
+	flex-shrink: 0;
+	width: 14px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-block-addons-container .qodef-addon-actions .qodef-action-button > a svg.qodef-icon-drag {
+	width: 16.42px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-block-addons-container .qodef-addon-actions .qodef-action-button > a:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-block-addons-container .qodef-addon-actions .qodef-action-button > a:hover {
+	color: #000;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-block-addons-container .qodef-addon-actions .qodef-action-button > a.qodef-action-move {
+	display: none;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-panel-block-wrapper #qodef-block-addons-container .qodef-addon-actions .qodef-action-button.qodef-action-button--move-action a {
+	cursor: move;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper {
+	background-color: rgba(0, 0, 0, 0.15);
+	position: absolute;
+	top: -20px;
+	right: 0;
+	left: 0;
+	overflow-y: scroll;
+	z-index: 10;
+	height: calc(100% + 85px);
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor {
+	background-color: #fff;
+	max-width: 940px;
+	padding: 40px 40px;
+	margin: 120px auto;
+	position: relative;
+	z-index: 50;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor .qodef-color-a,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor .qodef-color-b {
+	width: 45%;
+	min-width: 45%;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor .qodef-field-wrapper.qodef-filed-type--colorpicker {
+	min-width: 100%;
+	width: 100%;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor .qodef-field-wrapper.qodef-filed-type--dimensions .qodef-dimensions-fields {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	gap: 8px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor .qodef-field-wrapper.qodef-filed-type--dimensions .qodef-dimensions-fields .qodef-dimensions-linked {
+	position: relative;
+	vertical-align: middle;
+	width: auto;
+	margin: 0;
+	font-family: "DM Sans", sans-serif;
+	font-size: 13px;
+	line-height: 2em;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 5px;
+	letter-spacing: 0.02em;
+	outline: none;
+	box-sizing: border-box;
+	transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+	cursor: pointer;
+	text-decoration: none;
+	box-shadow: none;
+	display: inline-block;
+	padding: 4px 23px;
+	margin-bottom: 7px;
+	display: flex;
+	height: 37px;
+	align-items: center;
+	text-align: center;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor .qodef-field-wrapper.qodef-filed-type--dimensions .qodef-dimensions-fields .qodef-dimensions-linked svg {
+	height: 18px;
+	fill: currentColor;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor .qodef-field-wrapper.qodef-filed-type--dimensions .qodef-dimensions-fields:not(.qodef--dimensions-linked-active) .qodef-dimensions-linked {
+	color: #000000;
+	background-color: transparent;
+	border: 1px solid #dedee1;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor .qodef-field-wrapper.qodef-filed-type--dimensions .qodef-dimensions-fields:not(.qodef--dimensions-linked-active) .qodef-dimensions-linked:hover {
+	color: #000000;
+	background-color: #fff;
+	border-color: #b7b7b7;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor .qodef-field-wrapper.qodef-filed-type--dimensions .qodef-dimensions-fields.qodef--dimensions-linked-active .qodef-dimensions-linked {
+	color: #fff;
+	background-color: #ee2852;
+	border: 1px solid transparent;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor .qodef-field-wrapper.qodef-filed-type--dimensions .qodef-dimensions-fields.qodef--dimensions-linked-active .qodef-dimensions-linked:hover {
+	color: #fff;
+	background-color: #fd315c;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor .qodef-field-wrapper.qodef-filed-type--dimensions .qodef-dimensions-fields .qodef-dimensions-input-wrapper {
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor .qodef-field-wrapper.qodef-filed-type--dimensions .qodef-dimensions-fields .qodef-dimensions-input-wrapper .qodef-dimension-single {
+	width: 67px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor .qodef-field-wrapper.qodef-filed-type--dimensions .qodef-dimensions-fields .qodef-dimensions-input-wrapper .qodef-dimension-single .qodef-dimension-label {
+	display: inline-block;
+	padding-bottom: 3px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-close-popup {
+	color: #000;
+	padding: 5px;
+	font-size: 22px;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	cursor: pointer;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-close-popup svg {
+	fill: currentColor;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-buttons {
+	margin-top: 10px;
+	display: flex;
+	gap: 10px;
+	justify-content: flex-end;
+	padding: 0 15px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor .qodef-types-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	margin-bottom: 35px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor .qodef-types-list:last-of-type {
+	margin-bottom: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor .qodef-types-list .qodef-type {
+	color: #000;
+	width: 130px;
+	border: 1px solid #ebebeb;
+	padding: 5px 10px 20px 10px;
+	margin: 0;
+	text-align: center;
+	text-decoration: none;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.08);
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor .qodef-types-list .qodef-type .qodef-type-heading {
+	margin: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor .qodef-types-list .qodef-type .qodef-icon:not(.qodef-premium-badge) {
+	fill: currentColor;
+	font-size: 28px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor .qodef-types-list .qodef-type .qodef-icon.qodef-premium-badge {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	display: none;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor .qodef-types-list .qodef-type.qodef-disabled {
+	pointer-events: none;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor .qodef-types-list .qodef-type.qodef-disabled * {
+	opacity: 0.4;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor .qodef-types-list .qodef-type.qodef-disabled .qodef-icon.qodef-premium-badge {
+	display: block;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor .qodef-btn.qodef-back-to-type-choice {
+	margin: 0 0 40px 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-tabs {
+	margin-bottom: 72px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-tabs > a {
+	position: relative;
+	vertical-align: middle;
+	width: auto;
+	margin: 0;
+	font-family: "DM Sans", sans-serif;
+	font-size: 13px;
+	line-height: 2em;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 5px;
+	letter-spacing: 0.02em;
+	outline: none;
+	box-sizing: border-box;
+	transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
+	cursor: pointer;
+	text-decoration: none;
+	box-shadow: none;
+	display: inline-block;
+	padding: 4px 23px;
+	border-radius: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-tabs > a:not(.qodef-selected) {
+	color: #000000;
+	background-color: transparent;
+	border: 1px solid #dedee1;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-tabs > a:not(.qodef-selected):hover {
+	color: #000000;
+	background-color: #fff;
+	border-color: #b7b7b7;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-tabs > a.qodef-selected {
+	color: #fff;
+	background-color: #ee2852;
+	border: 1px solid transparent;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-tabs > a.qodef-selected:hover {
+	color: #fff;
+	background-color: #fd315c;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section {
+	gap: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-desc {
+	flex: 0 0 40%;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content {
+	flex: 0 0 60%;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content.qodef-min-number.qodef-min-max-number, #qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content.qodef-max-number.qodef-min-max-number {
+	flex: 30%;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content.qodef-min-number.qodef-min-max-number {
+	margin-right: 15px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options {
+	display: flex;
+	align-items: center;
+	column-gap: 20px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-checkbox-group-holder {
+	display: block;
+	width: 70%;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-checkbox-group-holder .qodef-inline {
+	display: block;
+	margin: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-increase-or-decrease small {
+	text-transform: uppercase;
+	position: absolute;
+	left: calc(100% + 15px);
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-increase-or-decrease .qodef-field-wrapper {
+	position: relative;
+	margin-bottom: 15px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-increase-or-decrease .qodef-field-wrapper.qodef-time-interval, #qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-increase-or-decrease .qodef-field-wrapper.qodef-time-type-interval {
+	width: 160px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-increase-or-decrease .qodef-start-year,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-increase-or-decrease .qodef-end-year,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-increase-or-decrease .qodef-number-amount,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-increase-or-decrease .qodef-number-range {
+	width: 120px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-rule-conditions-wrapper small {
+	text-transform: uppercase;
+	position: absolute;
+	left: calc(100% + 15px);
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-rule-conditions-wrapper .qodef-field-wrapper {
+	position: relative;
+	margin-bottom: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-rule-conditions-wrapper .qodef-field-wrapper.qodef-rules-type {
+	width: 160px;
+	margin-bottom: 15px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-rule-conditions-wrapper .qodef-rule {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	margin-bottom: 15px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-rule-conditions-wrapper .qodef-rule:first-child .qodef-field-what .qodef-delete-rule {
+	display: none;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-rule-conditions-wrapper .qodef-rule:last-child {
+	margin-bottom: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-rule-conditions-wrapper .qodef-field-what {
+	position: relative;
+	width: 160px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-rule-conditions-wrapper .qodef-field-what .qodef-delete-rule {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	left: -25px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #666;
+	transition: color .2s ease-out;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-rule-conditions-wrapper .qodef-field-what .qodef-delete-rule svg {
+	width: 100%;
+	height: 100%;
+	fill: currentColor;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-rule-conditions-wrapper .qodef-field-what .qodef-delete-rule:hover {
+	color: #000;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-rule-conditions-wrapper .qodef-field-what .qodef-delete-rule:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-rule-conditions-wrapper .qodef-field-daysweek,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-rule-conditions-wrapper .qodef-field-months,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-rule-conditions-wrapper .qodef-field-years {
+	flex: 0 0 50%;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-rule-conditions-wrapper .qodef-field-daysweek .select2-selection--multiple,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-rule-conditions-wrapper .qodef-field-months .select2-selection--multiple,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-rule-conditions-wrapper .qodef-field-years .select2-selection--multiple {
+	min-width: 220px;
+	max-width: 220px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-rule-conditions-wrapper #qodef-add-date-rule {
+	margin-top: 15px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-slot-conditions-wrapper small {
+	text-transform: uppercase;
+	position: absolute;
+	left: calc(100% + 15px);
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-slot-conditions-wrapper .qodef-field-wrapper {
+	position: relative;
+	margin-bottom: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-slot-conditions-wrapper .qodef-field-wrapper.qodef-rules-type {
+	width: 160px;
+	margin-bottom: 15px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-slot-conditions-wrapper .qodef-slot {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 5px;
+	margin-bottom: 15px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-slot-conditions-wrapper .qodef-slot .qodef-time-slot-from-container,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-slot-conditions-wrapper .qodef-slot .qodef-time-slot-to-container {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-slot-conditions-wrapper .qodef-slot .qodef-time-slot-from-container .qodef-field-wrapper,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-slot-conditions-wrapper .qodef-slot .qodef-time-slot-to-container .qodef-field-wrapper {
+	width: 70px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-slot-conditions-wrapper .qodef-slot .qodef-time-slot-from-container .qodef-field-wrapper .select2-container--default .select2-selection--single,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-slot-conditions-wrapper .qodef-slot .qodef-time-slot-to-container .qodef-field-wrapper .select2-container--default .select2-selection--single {
+	padding: 5.5px 15px 5.5px 23px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-slot-conditions-wrapper .qodef-slot .qodef-time-slot-from-container .qodef-field-wrapper .select2-container--default .select2-selection--single .select2-selection__arrow,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-slot-conditions-wrapper .qodef-slot .qodef-time-slot-to-container .qodef-field-wrapper .select2-container--default .select2-selection--single .select2-selection__arrow {
+	width: 40px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-slot-conditions-wrapper .qodef-slot .qodef-time-slot-from-text {
+	display: none;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-slot-conditions-wrapper .qodef-slot .qodef-time-slot-from-text,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-slot-conditions-wrapper .qodef-slot .qodef-time-slot-to-text {
+	font-size: smaller;
+	text-transform: uppercase;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-slot-conditions-wrapper .qodef-slot .qodef-delete-slot {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	left: -25px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #666;
+	transition: color .2s ease-out;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-slot-conditions-wrapper .qodef-slot .qodef-delete-slot svg {
+	width: 100%;
+	height: 100%;
+	fill: currentColor;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-slot-conditions-wrapper .qodef-slot .qodef-delete-slot:hover {
+	color: #000;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-slot-conditions-wrapper .qodef-slot .qodef-delete-slot:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-slot-conditions-wrapper .qodef-slot:first-child .qodef-delete-slot {
+	display: none;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-slot-conditions-wrapper .qodef-slot:last-child {
+	margin-bottom: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-slot-conditions-wrapper #qodef-add-time-slot {
+	margin-top: 15px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-enabled-by-addon-enable-rules .qodef-field-wrapper {
+	position: relative;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-enabled-by-addon-enable-rules .qodef-conditional-display-rules {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-enabled-by-addon-enable-rules .qodef-conditional-display-rules small {
+	text-transform: uppercase;
+	position: absolute;
+	left: 50%;
+	top: -20px;
+	transform: translateX(-50%);
+	width: 100%;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-enabled-by-addon-enable-rules .qodef-conditional-display-rules .qodef-display-logic {
+	width: 160px;
+	margin-bottom: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-enabled-by-addon-enable-rules .qodef-conditional-display-rules .qodef-filed-type--multiselect .select2-selection--multiple {
+	min-width: 260px;
+	max-width: 260px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-enabled-by-addon-enable-rules .qodef-conditional-display-rules .qodef-set-conditions .qodef-set-conditions-inner {
+	display: flex;
+	height: 48px;
+	align-items: center;
+	justify-content: center;
+	margin-right: 12px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-enabled-by-addon-enable-rules .qodef-conditional-display-rules .qodef-set-conditions .qodef-set-conditions-inner input {
+	margin-right: 10px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-enabled-by-addon-enable-rules .qodef-conditional-display-rules .qodef-only-if {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-enabled-by-addon-enable-rules .qodef-conditional-display-rules .qodef-only-if .qodef-filed-type--select {
+	width: 200px;
+	max-width: 200px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-enabled-by-addon-enable-rules .qodef-display-rules {
+	margin-top: 15px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-enabled-by-addon-enable-rules .qodef-display-rules .qodef-rule {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 15px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-enabled-by-addon-enable-rules .qodef-display-rules .qodef-rule .qodef-field-wrapper {
+	position: relative;
+	width: 200px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-enabled-by-addon-enable-rules .qodef-display-rules .qodef-rule .qodef-field-wrapper .qodef-delete-rule {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	left: -25px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #666;
+	transition: color .2s ease-out;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-enabled-by-addon-enable-rules .qodef-display-rules .qodef-rule .qodef-field-wrapper .qodef-delete-rule svg {
+	width: 100%;
+	height: 100%;
+	fill: currentColor;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-enabled-by-addon-enable-rules .qodef-display-rules .qodef-rule .qodef-field-wrapper .qodef-delete-rule:hover {
+	color: #000;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-enabled-by-addon-enable-rules .qodef-display-rules .qodef-rule .qodef-field-wrapper .qodef-delete-rule:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-enabled-by-addon-enable-rules .qodef-display-rules .qodef-rule:first-child .qodef-field-wrapper .qodef-delete-rule {
+	display: none;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container .qodef-field-section .qodef-field-content .qodef-additional-options .qodef-enabled-by-addon-enable-rules #qodef-add-conditional-rule {
+	margin-top: 15px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container #qodef-addon-options {
+	margin-top: 40px;
+	padding: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container #qodef-addon-options .qodef-option-item {
+	position: relative;
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+	padding: 0;
+	border: 1px solid #ebebeb;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container #qodef-addon-options .qodef-option-item .qodef-actions {
+	position: absolute;
+	right: 15px;
+	top: 6px;
+	z-index: 10;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container #qodef-addon-options .qodef-option-item .qodef-actions .qodef-action-button {
+	display: inline-block;
+	width: 47px;
+	height: 47px;
+	line-height: 47px;
+	margin: 0 0 0 auto;
+	border-radius: 47px;
+	text-align: center;
+	transition: background-color .2s ease-out;
+	border: 1px solid #ebebeb;
+	background: #fff;
+	color: #666;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container #qodef-addon-options .qodef-option-item .qodef-actions .qodef-action-button a {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	color: currentColor;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container #qodef-addon-options .qodef-option-item .qodef-actions .qodef-action-button a svg {
+	display: inline-block;
+	width: 16px;
+	height: auto;
+	fill: currentColor;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container #qodef-addon-options .qodef-option-item .qodef-actions .qodef-action-button a:focus {
+	outline: 0;
+	box-shadow: none;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container #qodef-addon-options .qodef-option-item .qodef-actions .qodef-action-button.qodef-action-button--move-action a {
+	cursor: move;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container #qodef-addon-options .qodef-option-item .qodef-actions .qodef-action-button.qodef-action-button--delete-action {
+	color: #fff;
+	background: #ee2852;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container #qodef-addon-options .qodef-option-item .qodef-actions .qodef-action-button.qodef-action-button--delete-action:hover {
+	background: #fd315c;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container #qodef-addon-options .qodef-option-item > .qodef-title {
+	width: 100%;
+	margin: 0;
+	min-height: 45px;
+	padding: 20px 62px 20px 15px;
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	transition: background-color 0.2s ease-out;
+	cursor: pointer;
+	position: relative;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container #qodef-addon-options .qodef-option-item > .qodef-title:hover {
+	background-color: #ebebeb;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container #qodef-addon-options .qodef-option-item > .qodef-title .qodef-addon-name {
+	display: flex;
+	align-items: center;
+	width: 90%;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container #qodef-addon-options .qodef-option-item > .qodef-title .qodef-addon-name .qodef-name {
+	flex: 0 0 50%;
+	padding: 0 15px;
+	margin: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container #qodef-addon-options .qodef-option-item > .qodef-title .qodef-addon-name .qodef-additional-options {
+	flex: 0 0 40%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container #qodef-addon-options .qodef-option-item > .qodef-title .qodef-addon-name .qodef-additional-options .qodef-selected-by-default {
+	display: block;
+	width: 60%;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container #qodef-addon-options .qodef-option-item > .qodef-title .qodef-addon-name .qodef-additional-options .qodef-selected-by-default .qodef-checkbox-group-holder,
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container #qodef-addon-options .qodef-option-item > .qodef-title .qodef-addon-name .qodef-additional-options .qodef-selected-by-default .qodef-inline {
+	display: block;
+	margin: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container #qodef-addon-options .qodef-option-item > .qodef-title .qodef-addon-name .qodef-additional-options .qodef-yesno {
+	top: 0;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container #qodef-addon-options .qodef-option-item .qodef-fields {
+	display: none;
+	width: 100%;
+	padding: 25px 15px 0 15px;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container #qodef-addon-options .qodef-option-item.qodef-open > .qodef-title:after {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 1px;
+	width: 100%;
+	background-color: #ebebeb;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container #qodef-addon-options .qodef-option-item.qodef-open .qodef-fields {
+	display: block;
+}
+
+#qodef-page.qodef-options-admin.qodef-page-v4-qode-product-extra-options-for-woocommerce.qodef-blocks .qodef-addon-overlay-wrapper #qodef-addon-editor #qodef-addon-editor-type #qodef-addon-container #qodef-add-new-option {
+	left: 15px;
+	margin-top: 10px;
+}
